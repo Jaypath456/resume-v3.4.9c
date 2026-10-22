@@ -1,0 +1,95 @@
+\documentclass[10pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage[top=0.25in, bottom=0.2in, left=0.4in, right=0.4in]{geometry}
+\usepackage{parskip}
+\renewcommand{\labelitemi}{$\bullet$}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4pt}
+\linespread{0.98}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\tolerance=1000
+\emergencystretch=1em
+\newcommand{\sectiondivider}{\vspace{0.62em}\hrule\vspace{0.54em}}
+\newcommand{\rolegap}{\vspace{6.6pt}}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{\z@}{-0.46em \@plus -0.1ex \@minus -0.1ex}{0.36ex \@plus 0.1ex}{\normalfont\large\bfseries}}
+\makeatother
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+\textbf{\Large Jay Niketan Pathare} \\
+\rolegap
+\href{mailto:jayadmit456@gmail.com}{jayadmit456@gmail.com}\hspace{0.5em}|\hspace{0.5em}+1(716)303-9924\hspace{0.5em}|\hspace{0.5em}NY, US\hspace{0.5em}|\hspace{0.5em}\href{https://www.linkedin.com/in/jaypathare3}{linkedin.com/in/jaypathare3}\hspace{0.5em}|\hspace{0.5em}\href{https://github.com/Jaypath456}{github.com/Jaypath456} \\
+\textit{Master's CS student building REST APIs, cloud-deployed backend services, and tested software.}
+\end{center}
+\sectiondivider
+\section*{EDUCATION}
+\noindent\textbf{Master's in Computer Science}, University at Buffalo (SUNY) $|$ GPA: 3.85 / 4.0 \hfill \textit{August 2025 -- Expected December 2026} \\
+\textit{Relevant coursework:} Operating Systems, Algorithms Analysis \& Design, Data Models \& Query Languages \\
+\noindent\textbf{Bachelor of Engineering, Information Technology}, VESIT, Mumbai University, India \hfill \textit{August 2019 -- May 2023}
+\sectiondivider
+\section*{EXPERIENCE}
+\noindent\textbf{Software Engineer Practicum} $|$ HeinOnline (University at Buffalo), Buffalo, NY \hfill \textit{January 2026 -- April 2026}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Engineered a fault-tolerant data pipeline that processed \textbf{28k+ pages} of law journals, combining CrossRef API, web scrapers, and OCR/LLM vision (Tesseract, Qwen3-VL 8B, Qwen3.5-35B).
+\item Merged all three sources into one validated structure with fuzzy matching, cutting manual data entry by \textbf{$\sim$90\%} and pushing extraction accuracy to \textbf{about 91\%} over five iterations, benchmarked against ground truth.
+\item Parallelized the pipeline with a CPU-based worker pool that pulls journals from a shared queue, cutting total processing time by \textbf{over 80\%}, and added confidence scoring to flag low-confidence fields for human review.
+\item Standardized author names by matching them to HeinOnline's \textbf{500+ authors} in PostgreSQL, even when spelled differently.
+\end{itemize}
+\rolegap
+\noindent\textbf{Software Engineer} $|$ Thesis Mumbai Tech (Startup), Mumbai, India \hfill \textit{August 2024 -- August 2025}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Led a team of \textbf{4} through end-to-end delivery of healthcare platform modules using Agile/Scrum: gathered requirements in client meetings, prototyped to validate scope, and reviewed and merged team pull requests.
+\item Developed Patient Management and Consent modules on normalized schemas for \textbf{10k+ records}, plus a real-time WebSocket + Redis pipeline streaming IoT baby-warmer data into PostgreSQL with \textbf{$\sim$2s live monitoring}.
+\item Delivered a WebRTC telemedicine feature that let remote doctors review test results with patients and on-site nurses, plus PDF report generation and a color-blindness diagnostic module (\textbf{95\%+ accuracy}) with automated reporting.
+\item Containerized \textbf{3+ production projects} with Docker Compose for consistent local, staging, and deployment environments.
+\item Built a heartbeat monitor pinging \textbf{4 production sites} every 5 minutes and restored the services it caught failing.
+\item Interviewed \textbf{about 20 student candidates}, onboarded and mentored the hires through weekly coding rounds over their first 3 weeks.
+\end{itemize}
+\rolegap
+\noindent\textbf{Cloud Engineer Intern} $|$ Data Maven Pvt Ltd, Mumbai, India \hfill \textit{November 2023 -- May 2024}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Deployed backend services on AWS EC2 and RDS, using VPC networking and security groups to restrict access.
+\item Automated cloud resource provisioning, cutting setup time by \textbf{$\sim$40\%} and reducing deployment issues.
+\end{itemize}
+\sectiondivider
+\section*{PERSONAL PROJECTS}
+\noindent\textbf{LedgerFlow: Event-Driven Payment Ledger} $|$ Java, Spring Boot, Kafka, PostgreSQL $|$ \href{https://github.com/Jaypath456/ledgerFlow}{\underline{GitHub}} \hfill \textit{October 2026}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Designed a payment API and a double-entry ledger as two Spring Boot services that talk through Kafka.
+\item Stress-tested \textbf{200 simultaneous payment requests} against an account funded for only 50, with no overdraft.
+\item Verified the ledger in a GitHub Actions CI workflow that runs all \textbf{94 of its tests}, including integration tests that start real database and message-broker containers with Testcontainers.
+\item Validated payment correctness by forcing \textbf{14 service crashes} and repeating \textbf{18,000 messages}; every run ended with no wrong balances and no payment recorded twice in the ledger.
+\end{itemize}
+\rolegap
+\noindent\textbf{GoingOnce: Multi-Agent Car Marketplace} (1st Place, ACV + Copart Challenge) $|$ Python, LangGraph, ReactJS $|$ \href{https://github.com/raunakpandey1/goingonce}{\underline{GitHub}} \hfill \textit{October 2026}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Prototyped a \textbf{four-agent car marketplace} (Buy, Sell, Negotiate, Fleet) with a four-person team, with a human approving every simulated bid or listing before it goes through.
+\item Coded the \textbf{Negotiate agent}, where each side's agent keeps a private price limit and a mediator closes the gap in rounds, then closes the simulated deal: escrow payment, insurance, loan payoff, title, and transport.
+\end{itemize}
+\rolegap
+\noindent\textbf{RIPPLE: Agentic Change-Impact Analysis} $|$ Python, Python AST, Git, Pydantic $|$ \href{https://github.com/Jaypath456/ripple}{\underline{GitHub}} \hfill \textit{August 2026}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item Wrote RIPPLE, a command-line AI agent that predicts the files and tests a Python code change will affect.
+\item Evaluated the agent on \textbf{30 unseen tasks} from \textbf{16 real code repositories} with zero unsupported claims accepted.
+\item Created a Git-diff check that flags unexpected edits, missing tests, and stale callers.
+\item Integrated \textbf{seven code-analysis tools} into the agent's tool-calling loop under a cap of 25 calls per task.
+\end{itemize}
+\sectiondivider
+\section*{TECHNICAL SKILLS}
+\begin{itemize}\setlength{\itemsep}{0.78pt}
+\item \textbf{Languages \& Databases:} Python, Java, JavaScript, Go, SQL, PostgreSQL, MongoDB
+\item \textbf{Frameworks \& Libraries:} Spring Boot, Django REST Framework, Django, ReactJS, Testcontainers
+\item \textbf{AI/ML:} AI Agents, LLM Integration, Tool Calling
+\item \textbf{Software Engineering:} REST APIs, Event-Driven Architecture, Microservices, Unit Testing, Distributed Systems
+\item \textbf{Tools:} Git, GitHub Actions, Docker, Apache Kafka, Redis, AWS (EC2/RDS), Claude Code
+\end{itemize}
+\end{document}
