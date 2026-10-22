@@ -1,0 +1,61 @@
+# v3.4.9c fix1 targeted tests (code b209a287; pipeline = release + details/patch_v349c_fix1.py)
+
+## Fix 2 isolation: resume .tex compared across configurations (6 fixtures)
+fixture | exit codes (on/closing-off/plain-off) | closing on vs closing off: resume | on vs plain off: resume | on vs Run 6 final: resume | closing text changed (on vs closing off)
+vindexa | 0/0/0 | same | same | same | yes
+ebsco_sde1 | 0/0/0 | same | same | same | yes
+figure | 0/0/0 | same | same | same | yes
+cardinal | 0/0/0 | same | same | same | yes
+alml_engineer | 0/0/0 | same | same | same | yes
+macys | 0/0/0 | same | same | same | yes
+
+vindexa project bullets (closing on / closing off / plain off / Run 6 final):
+  iso_on: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+  iso_coff: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+  iso_poff: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+  r6_final: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+
+## 12-fixture targeted run (all flags on): letter gate vs Run 6 final outputs (resume/tracker/outreach identity + plain-letter rules)
+alml_engineer          OK   body=128 letter=135 ach=1 hook=plan hook shared=evaluation,learning,llm-based,machine exp=hein proj=fraud proof=-
+arclight               OK   body=121 letter=128 ach=1 hook=plan hook shared=concurrency,embedded,environment,file exp=thesis_iot proj=pintos proof=exp.thesis_client
+audit01                OK   body=138 letter=145 ach=1 hook=plan hook shared=development,engineering,group,improvements exp=thesis_ops proj=ledgerflow proof=-
+corvex                 OK   body=132 letter=139 ach=1 hook=plan hook shared=apis,automated,chaos,distributed exp=thesis_ops proj=ledgerflow proof=-
+doordash_mdx           OK   body=136 letter=143 ach=1 hook=plan hook shared=agents,doordash,evaluate,experiments exp=hein proj=ripple proof=ripple.claude_code_dev
+elevenlabs             OK   body=124 letter=131 ach=1 hook=plan hook shared=correct,elevenlabs,every,foundations exp=thesis_ops proj=launchops proof=exp.thesis_backend
+fidelity               OK   body=136 letter=143 ach=1 hook=plan hook shared=autonomous,cross-functional,desktop,experience exp=thesis_backend proj=ledgerflow proof=-
+harvey                 OK   body=137 letter=144 ach=1 hook=plan hook shared=automation,document,intelligence,retrieval exp=hein proj=ripple proof=-
+l3harris               OK   body=122 letter=129 ach=1 hook=plan hook shared=activities,customer,deployment,integration exp=thesis_iot proj=ledgerflow proof=-
+macys                  OK   body=123 letter=130 ach=1 hook=plan hook shared=clearly,commerce,connected,customers exp=datamaven proj=ledgerflow proof=-
+vindexa                OK   body=150 letter=157 ach=1 hook=plan hook shared=architectural,data,decisions,defend exp=hein proj=goingonce proof=launchops.server_checks
+zoro_fullstack         OK   body=121 letter=128 ach=1 hook=plan hook shared=customer,data,demand,deployment exp=thesis_backend proj=launchops proof=ledger.ci
+
+## Closings in the 12-fixture run
+vindexa         SPECIFIC I want to ship full-stack features at Vindexa, drawing on LaunchOps, where the server blocks edits to other users' tasks. | proof launchops.server_checks
+     evidence full-stack <- oordination learning platform full-stack/backend system design.
+alml_engineer   FAMILY   I want to apply careful, baseline-checked model evaluation to your team's machine learning work. | proof -
+doordash_mdx    SPECIFIC I want to build agentic developer support at DoorDash, drawing on RIPPLE, which I wrote with an AI coding assistant and checked with its full test suite. | proof ripple.claude_code_dev
+     evidence agentic <- also used it to study how ai agents work and to probe their edge cases. us
+     evidence developer <- cases claude code ai-assisted development ai agents edge cases testing 241
+elevenlabs      SPECIFIC I want to build internal platforms or services used by other engineering teams at ElevenLabs, drawing on the real-time device pipeline I built at Thesis Mumbai Tech. | proof exp.thesis_backend
+     evidence internal <- ry 5 minutes to track health. interviewed about 20 student candidates and o
+     evidence used <- t a measurement, so it is not used on the resume. do not infer hipaa/fhir/
+     evidence engineering <- la ownership, or ha. software engineer thesis mumbai tech (startup)
+zoro_fullstack  FAMILY   I want to ship reliable features with the team at Zoro, building on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+audit01         FAMILY   I want to build dependable, well-tested software with your team. | proof -
+l3harris        FAMILY   I want to keep L3Harris Technologies' software reliable for its customers. | proof -
+arclight        FAMILY   I want to grow as a systems engineer at Arclight Devices, drawing on the healthcare features I delivered at Thesis Mumbai Tech. | proof exp.thesis_client
+     evidence grow <- (spelling list)
+     evidence engineer <- la ownership, or ha. software engineer thesis mumbai tech (startup)
+corvex          FAMILY   I want to build dependable, well-tested software with the team at Corvex Systems. | proof -
+fidelity        FAMILY   I want to build dependable, well-tested software with the team at Fidelity Investments. | proof -
+harvey          FAMILY   I want to build dependable, well-tested software with the team at Harvey. | proof -
+macys           FAMILY   I want to build dependable, well-tested software with the team at Macy's. | proof -
+
+## audit_v344 on the 12-fixture sample (unchanged tool)
+built 12 | fallback closings 9 (75.0%) | max closing 27 words | max letter 157 words
+FAIL alml_engineer: closing repeats a letter proof (words ['apply', 'evalu', 'learn', 'machi', 'model', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to your team's machine learning work.
+FAIL corvex: closing repeats a letter proof (words ['build', 'corve', 'softw', 'syste', 'want']): I want to build dependable, well-tested software with the team at Corvex Systems.
+FAIL fidelity: closing repeats a letter proof (words ['build', 'fidel', 'inves', 'softw', 'want']): I want to build dependable, well-tested software with the team at Fidelity Investments.
+FAIL l3harris: closing repeats a letter proof (number ['3']; words ['custo', 'l3har', 'techn', 'want']): I want to keep L3Harris Technologies' software reliable for its customers.
+FAIL fallback closings 75.0% > 10%
+audit_v344: 5 problem(s)
