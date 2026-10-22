@@ -1,0 +1,210 @@
+[
+ {
+  "fixture": "akamai_se",
+  "t": 0.412109375,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.77,
+   "text_lines_added": 0,
+   "skills_text_changed": true,
+   "page_text_changed": true,
+   "keeps_content_and_buffer": false
+  }
+ },
+ {
+  "fixture": "allergan",
+  "t": 0.5390625,
+  "newgrad_spacing_fits": true,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.62,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "alml_engineer",
+  "t": 0.34765625,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.76,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "audible",
+  "t": 0.42578125,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.75,
+   "text_lines_added": 0,
+   "skills_text_changed": true,
+   "page_text_changed": true,
+   "keeps_content_and_buffer": false
+  }
+ },
+ {
+  "fixture": "cardinal",
+  "t": 0.62890625,
+  "newgrad_spacing_fits": true,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.56,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "doordash_mdx",
+  "t": 0.32421875,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.74,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "ebsco_sde1",
+  "t": 0.419921875,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.61,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "elevenlabs",
+  "t": 0.412109375,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.77,
+   "text_lines_added": 0,
+   "skills_text_changed": true,
+   "page_text_changed": true,
+   "keeps_content_and_buffer": false
+  }
+ },
+ {
+  "fixture": "figure",
+  "t": 0.62890625,
+  "newgrad_spacing_fits": true,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.56,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "giga_swe",
+  "t": 0.515625,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.54,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "macys",
+  "t": 0.341796875,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.72,
+   "text_lines_added": 0,
+   "skills_text_changed": true,
+   "page_text_changed": true,
+   "keeps_content_and_buffer": false
+  }
+ },
+ {
+  "fixture": "meritore_jpc",
+  "t": 0.412109375,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.77,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "nvidia_infra",
+  "t": 0.53125,
+  "newgrad_spacing_fits": true,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.57,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "umich",
+  "t": 0.3359375,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.71,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "ust_software_engineer",
+  "t": 0.412109375,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.77,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ },
+ {
+  "fixture": "zoro_fullstack",
+  "t": 0.419921875,
+  "newgrad_spacing_fits": false,
+  "margins_0.4in": {
+   "pages": 1,
+   "spare_pt": 10.61,
+   "text_lines_added": 0,
+   "skills_text_changed": false,
+   "page_text_changed": false,
+   "keeps_content_and_buffer": true
+  }
+ }
+]
