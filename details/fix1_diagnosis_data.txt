@@ -1,0 +1,156 @@
+# Fix 1 diagnosis data (read-only, release b04aa71d outputs r9_fin)
+
+## A. Why the 87 role-family closings happened (cover_letter.closing.closing_v349c.set_aside)
+family 87 specific 39
+distinct responsibilities set aside per family closing: {0: 16, 1: 23, 2: 12, 3: 10, 4: 7, 5: 9, 6: 5, 7: 1, 8: 4}
+{'no candidate set aside (inner family)': 16}
+top unsupported words: [('issues', 12), ('apis', 10), ('technical', 7), ('endpoints', 7), ('debug', 7), ('infrastructure', 7), ('unit', 7), ('optimize', 6), ('python', 6), ('ai', 5), ('sql', 5), ('business', 5), ('workflows', 5), ('small', 5), ('capabilities', 4), ('tooling', 4), ('feature', 4), ('cloud', 4), ('automation', 4), ('rest', 4), ('ingestion', 4), ('internal', 4), ('integration', 4), ('integrate', 4), ('web', 4), ('stack', 4), ('troubleshoot', 4), ('scalability', 3), ('both', 3), ('assessments', 3), ('reporting', 3), ('student', 3), ('through', 3), ('improvements', 3), ('engineer', 3), ('efficiency', 3), ('api', 3), ('queries', 3), ('checkout', 3), ('how', 3), ('jobs', 3), ('validation', 3), ('engineering', 3), ('processes', 3), ('take', 3), ('part', 3), ('sets', 3), ('pipelines', 3), ('needs', 3), ('documentation', 3), ('dashboard', 3), ('reusable', 3), ('fair', 3), ('compensation', 3), ('equitable', 3), ('latency', 2), ('accuracy', 2), ('recommendations', 2), ('reliability', 2), ('physical', 2)]
+
+## B. Closest candidate per family closing (all proofs of the page projects, per-item evidence, inflections)
+words: [('infrastructure', 3), ('optimize', 2), ('ingestion', 2), ('documentation', 2), ('scalability', 1), ('latency', 1), ('accuracy', 1), ('assessments', 1), ('manual', 1), ('replaces', 1), ('low-level', 1), ('api', 1), ('endpoints', 1), ('queries', 1), ('engineer', 1), ('set', 1), ('jobs', 1), ('repeatable', 1), ('datasets', 1), ('embedded', 1), ('clear', 1), ('breakthrough', 1), ('transformation', 1), ('workflows', 1), ('proof-of-concept', 1), ('load', 1), ('unit', 1), ('artificial', 1), ('intelligence', 1), ('machine', 1), ('architecture', 1), ('stack', 1), ('tech', 1), ('define', 1), ('front-end', 1), ('artifacts', 1), ('executes', 1), ('ai-powered', 1), ('card', 1), ('tailored', 1), ('network', 1), ('mobile', 1), ('mission', 1), ('technical', 1), ('troubleshoot', 1), ('efficiency', 1), ('improvement', 1), ('debug', 1), ('cloud', 1), ('reusable', 1), ('libraries', 1), ('frameworks', 1), ('briefs', 1), ('whitepapers', 1), ('durable', 1), ('ios', 1), ('personal', 1), ('professional', 1), ('appreciation', 1), ('what', 1), ('substantial', 1), ('life', 1), ('tooling', 1), ('customer-facing', 1)]
+alml_engineer        | optimize models for latency, accuracy, and scalability in real-world applications.** | fraud.graphsage | ['optimize', 'latency', 'accuracy', 'scalability']
+amplify              | create reporting on student assessments | exp.thesis_backend | ['assessments']
+anthropic_it         | build tooling that replaces manual IT work | tailor.provider_failover | ['replaces', 'manual']
+arclight             | develop low-level software | ledger.ci | ['low-level']
+audit01              | implement API endpoints and review pull requests | exp.thesis_backend | ['api', 'endpoints']
+audit02              | write backend application code and queries | ledger.ci | ['queries']
+audit03              | engineer support a set of checkout APIs | ripple.claude_code_dev | ['engineer', 'set']
+audit04              | develop ingestion jobs that reconcile records | ledger.exactly_once_effect | ['ingestion', 'jobs']
+audit06              | improve evaluation datasets and automate repeatable LLM tests | ripple.claude_code_dev | ['datasets', 'repeatable']
+audit08              | develop embedded control software | ledger.latency | ['embedded']
+audit10              | write clear testing notes and work | ledger.exactly_once_effect | ['clear']
+audit11              | NO CANDIDATE
+bae                  | develop breakthrough technologies | ledger.ci | ['breakthrough']
+black_canyon         | design, implement, maintain, and optimize data pipelines, APIs, data transformation workflows | exp.hein | ['optimize', 'transformation', 'workflows']
+brillio              | build prototypes and proof-of-concept solutions | goingonce.agents | ['proof-of-concept']
+cardinal             | NO CANDIDATE
+cobalt               | NO CANDIDATE
+corvex               | write unit, integration, and load tests | ledger.ci | ['unit', 'load']
+dassault             | design architecture for machine learning and artificial intelligence applications | launchops.server_checks | ['architecture', 'machine', 'artificial', 'intelligence']
+dominos              | NO CANDIDATE
+doordash             | develop and define the backend architecture and tech stack | ledger.ci | ['define', 'tech', 'stack']
+fidelity             | implement front-end solutions | ledger.ci | ['front-end']
+flowgen              | write and maintain key agent-building artifacts | ripple.claude_code_dev | ['artifacts']
+ga_asi               | NO CANDIDATE
+garmin               | create and executes designs | ledger.ci | ['executes']
+halcyon              | build streaming ingestion | exp.thesis_backend | ['ingestion']
+harvey               | build the AI-powered systems | ripple.claude_code_dev | ['ai-powered']
+helix                | build card payment services | ledger.overspend_test | ['card']
+inspire11            | design and build custom technology solutions tailored | goingonce.agents | ['tailored']
+ios_randstad         | develop mobile network clients | exp.thesis_backend | ['mobile', 'network']
+ironvale             | develop mission software and test tools | ledger.ci | ['mission']
+l3harris             | troubleshoot technical issues | launchops.server_checks | ['troubleshoot', 'technical']
+linkedin_ai          | implement an efficiency or quality improvement | ripple.claude_code_dev | ['efficiency', 'improvement']
+loopwell             | NO CANDIDATE
+macys                | NO CANDIDATE
+meridian_sw          | debug production issues with the team | launchops.server_checks | ['debug']
+nimble               | build full stack cloud applications | exp.thesis_backend | ['cloud']
+novita               | build reusable solutions | ledger.ci | ['reusable']
+nvidia               | build underlying frameworks and libraries | fraud.ablation | ['frameworks', 'libraries']
+nvidia_ai_cloud      | write technical whitepapers and product briefs | tailor.claim_validation | ['whitepapers', 'briefs']
+nvidia_devtech       | NO CANDIDATE
+otter                | build durable workflows | ledger.ci | ['durable']
+pinecrest            | NO CANDIDATE
+pocketly             | build iOS apps | ledger.ci | ['ios']
+raydar_backend       | deliver a substantial project, professional or personal, and an appreciation of what it takes | ledger.exactly_once_effect | ['substantial', 'professional', 'personal', 'appreciation', 'what']
+raydar_swe           | build the supporting infrastructure | ledger.ci | ['infrastructure']
+roblox               | NO CANDIDATE
+serco_snow           | NO CANDIDATE
+serco_sw             | maintain documentation for developed solutions and configurations | ripple.claude_code_dev | ['documentation']
+sparkline            | NO CANDIDATE
+stratus              | automate infrastructure provisioning | exp.datamaven | ['infrastructure']
+swisslog             | NO CANDIDATE
+tailscale            | integrate work and life | ledger.ci | ['life']
+tiktok_appsec        | design and develop security tooling | exp.datamaven | ['tooling']
+twitch               | write technical documentation | exp.thesis_backend | ['documentation']
+zoro_fullstack       | build scalable infrastructure and customer-facing solutions | ledger.ci | ['infrastructure', 'customer-facing']
+
+## C. Upper bound with every relaxation that keeps some grounding (project-level evidence, inflections, 'and <verb>' splits, front-end/full-stack/prototype equivalents)
+specific achievable 73/126 -> family 53 = 42.1%
+acme_cloud           ('write product or system development code', 'exp.thesis_client')
+alml_engineer        None
+amazon               ('deliver the best results', 'ripple.claude_code_dev')
+amplify              None
+anthropic_it         None
+arclight             None
+assetwatch           ('improve existing features', 'ledger.chaos_runs')
+atoms                ('architect and implement scalable backend systems and APIs', 'ledger.ci')
+audit01              None
+audit02              None
+audit03              None
+audit04              None
+audit05              ('develop scheduling software', 'goingonce.agents')
+audit06              None
+audit08              None
+audit09              ('create payment integrations', 'ledger.ci')
+audit10              None
+audit11              None
+audit12              ('engineer are expected', 'tailor.provider_failover')
+bae                  None
+black_canyon         None
+booz_allen           ('build or integrate, how', 'tailor.provider_failover')
+brightpath_fs        ('build real-time features', 'ledger.ci')
+brightpath_ml        ('build data pipelines', 'exp.thesis_backend')
+brillio              ('build prototypes and proof-of-concept solutions', 'goingonce.language_photo_logic')
+bti                  ('design, develop, test, and maintain full stack applications and services', 'ledger.ci')
+cardinal             None
+cobalt               None
+corvex               None
+dassault             None
+dominos              None
+doordash             None
+doordash_mdx         ('build agentic developer support', 'ripple.git_verification')
+elevenlabs           ('design and build generic resource', 'exp.datamaven')
+engen                ('design, develop, test, implement, and maintain solutions', 'ledger.ci')
+fanatics             ('design, build, test, and maintain modern scalable services and APIs', 'ledger.ci')
+fidelity             None
+flowgen              None
+frontend             ('build the web dashboard', 'exp.thesis_backend')
+ga_asi               None
+garmin               None
+halcyon              None
+harvey               ('build the AI-powered systems', 'ripple.git_verification')
+helix                None
+inspire11            None
+instalily            ('deliver high-quality products', 'ledger.ci')
+ios_randstad         None
+ironvale             None
+ixl                  ('build web applications', 'launchops.server_checks')
+l3harris             None
+linkedin_ai          None
+loopwell             None
+lumen                ('build AI agents', 'ripple.claude_code_dev')
+macys                None
+meridian_bank        ('deliver reliable datasets', 'fraud.dataset')
+meridian_sw          None
+microsoft            ('build the data platform', 'ledger.ci')
+monti                ('build an internal dashboard', 'exp.thesis_backend')
+ng_fullstack         ('build clean and maintainable backend services and APIs', 'ledger.ci')
+nimble               None
+northwind            ('build internal tools', 'ledger.ci')
+novita               None
+nvidia               None
+nvidia_ai_cloud      None
+nvidia_devtech       None
+otter                ('build durable workflows', 'launchops.server_checks')
+paypal               None
+pinecrest            None
+pocketly             None
+raydar_backend       None
+raydar_swe           ('build the supporting infrastructure', 'ledger.chaos_runs')
+roblox               None
+rocketmoney          ('architect scalable solutions', 'ledger.ci')
+rockstar             ('build complex systems', 'ledger.ci')
+serco_snow           None
+serco_sw             None
+spacexsi             ('write data pipelines', 'exp.thesis_backend')
+sparkline            None
+stratus              None
+swisslog             None
+tailscale            None
+tiktok_appsec        None
+twitch               None
+us_cold              ('work on design, coding, and testing', 'goingonce.agents')
+vindexa              ('write production-quality code', 'ripple.evaluation')
+wpp                  ('deliver high-quality data', 'ledger.ci')
+zoro_fullstack       None

@@ -1,0 +1,16 @@
+# Fix 2: vindexa fit-step letter comparison (v349b_subset_ok), release code
+## closing_v349c on
+SUBSET_OK True | same_letter True | slots [3, 2, 2] | ref closing: I want to build dependable, well-tested software with the team at Vindexa. | attempt closing: I want to build dependable, well-tested software with the team at Vindexa.
+SUBSET_OK True | same_letter True | slots [3, 2, 2] | ref closing: I want to build dependable, well-tested software with the team at Vindexa. | attempt closing: I want to build dependable, well-tested software with the team at Vindexa.
+SUBSET_OK True | same_letter True | slots [3, 2, 2] | ref closing: I want to build dependable, well-tested software with the team at Vindexa. | attempt closing: I want to build dependable, well-tested software with the team at Vindexa.
+rc 0
+## closing_v349c off
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to design and implement AI agents and multi-step automation pipelines that power its compliance engine 
+SUBSET_OK False | same_letter False | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to architect, build, and ship full-stack features at Vindexa, drawing on GoingOnce, where plain code ma
+SUBSET_OK True | same_letter True | slots [3, 2, 2] | ref closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC  | attempt closing: I want to build intelligent extraction, classification, and validation systems at Vindexa, drawing on the VPC 
+rc 0
