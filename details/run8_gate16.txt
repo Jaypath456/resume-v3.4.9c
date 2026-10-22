@@ -1,0 +1,62 @@
+# Run 8 GATE16 (final code), flag letters_plain_v349c on; baseline = _7.zip re-run (identical to Run 7 outputs 16/16)
+allergan     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+doordash_mdx PASS fam=data_science_ml rank=ripple/ledgerflow/tailor_pipeline page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+audible      PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+akamai_se    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia_infra PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Low blockers=-
+macys        PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Low blockers=student_audience,enrollment_required
+zoro_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+umich        PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+alml_engineer PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+giga_swe     PASS fam=ai_llm rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+elevenlabs   PASS fam=devops_cloud rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+ust_software_engineer PASS fam=backend rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+meritore_jpc PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+
+# Letter gate (tools/gate_r8.py: 3 paragraphs; body 120-160 and whole letter <= 160 words; role + company; posting hook shares 2+ content words with the posting; graduation/start sentence; relocation clause as in Run 7; no digits outside the graduation sentence / role title / company; no tool names (pipeline list from master.json + independent list); no hackathon / certification / Expected; no standalone we/our/us; <= 1 concrete achievement; grounded closing; resume .tex / tracker_row / outreach byte-identical to Run 7)
+GATE8: 16/16 pass []
+akamai_se              OK   body=137 letter=144 ach=1 hook=plan hook shared=akamai,cloud,configuration,customer-facing exp=thesis_client proj=ledgerflow proof=exp.thesis_iot
+allergan               OK   body=132 letter=139 ach=1 hook=plan hook shared=apis,clinical,integrations,regulatory exp=thesis_client proj=ledgerflow proof=ledger.exactly_once_effect
+alml_engineer          OK   body=128 letter=135 ach=1 hook=plan hook shared=evaluation,learning,llm-based,machine exp=hein proj=fraud proof=-
+audible                OK   body=121 letter=128 ach=1 hook=plan hook shared=audible,audio,listeners,storytelling exp=thesis_ops proj=ledgerflow proof=ledger.ci
+cardinal               OK   body=123 letter=130 ach=1 hook=plan hook shared=adjusters,claims,country,processing exp=datamaven proj=ledgerflow proof=ledger.chaos_runs
+doordash_mdx           OK   body=122 letter=129 ach=1 hook=plan hook shared=agents,doordash,evaluate,experiments exp=hein proj=ripple proof=-
+ebsco_sde1             OK   body=126 letter=133 ach=1 hook=plan hook shared=careful,development,ebsco,research exp=thesis_ops proj=launchops proof=launchops.ownership
+elevenlabs             OK   body=122 letter=129 ach=1 hook=plan hook shared=correct,elevenlabs,every,foundations exp=thesis_ops proj=launchops proof=-
+figure                 OK   body=144 letter=151 ach=1 hook=plan hook shared=figure,fleet,infrastructure,keeps exp=thesis_iot proj=pintos proof=pintos.safety
+giga_swe               OK   body=132 letter=139 ach=1 hook=plan hook shared=agents,backend,customer,data exp=hein proj=ripple proof=ripple.analysis_tools
+macys                  OK   body=135 letter=142 ach=1 hook=plan hook shared=clearly,commerce,connected,customers exp=datamaven proj=ledgerflow proof=ledger.ci
+meritore_jpc           OK   body=124 letter=131 ach=1 hook=plan hook shared=integration,meritore,modules,reviews exp=thesis_ops proj=ledgerflow proof=ledger.ci
+nvidia_infra           OK   body=124 letter=131 ach=1 hook=plan hook shared=analyze,collect,deployment,internal exp=thesis_ops proj=ledgerflow proof=exp.thesis_iot
+umich                  OK   body=121 letter=128 ach=1 hook=plan hook shared=apis,authentication,production-quality,such exp=thesis_ops proj=launchops proof=launchops.ownership
+ust_software_engineer  OK   body=136 letter=143 ach=1 hook=plan hook shared=apis,backend,integrations exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+zoro_fullstack         OK   body=121 letter=128 ach=1 hook=plan hook shared=customer,data,demand,deployment exp=thesis_backend proj=launchops proof=ledger.ci
+fixtures=16 built=16 min_spare=10.54(giga_swe) max_spare=10.77 problems=0
+flag off: 16/16 fixtures byte-identical to Run 7
+
+# Extra check (not GATE16): 20 edge fixtures (agency / unnamed company / missing title / internship / data-ML / SDET / systems / support families); base = Run 6 final outputs (Run 7 changes letters only)
+GATE8: 20/20 pass []
+apple                  OK   body=125 letter=132 ach=1 hook=plan hook shared=apple,customer,data,experiences exp=hein proj=fraud proof=exp.datamaven_access
+audit01                OK   body=131 letter=138 ach=1 hook=plan hook shared=development,engineering,group,improvements exp=thesis_ops proj=ledgerflow proof=ledger.ci
+audit04                OK   body=122 letter=129 ach=1 hook=plan hook shared=checks,data,datasets,extracting exp=godigital proj=ledgerflow proof=-
+audit06                OK   body=120 letter=127 ach=1 hook=plan hook shared=claims,engineering,evaluation,experiment exp=hein proj=ripple proof=-
+audit08                OK   body=133 letter=140 ach=1 hook=posting responsibility shared=controlled,equipment,modules exp=thesis_iot proj=pintos proof=-
+brightpath_ml          OK   body=121 letter=128 ach=1 hook=plan hook shared=content,evaluate,learning,models exp=hein proj=fraud proof=-
+corvex                 OK   body=126 letter=133 ach=1 hook=plan hook shared=apis,automated,chaos,distributed exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+frontend               OK   body=132 letter=139 ach=1 hook=plan hook shared=apis,backend,engineers,interfaces exp=thesis_ops proj=launchops proof=launchops.live_quiz
+fulfillment            OK   body=121 letter=128 ach=1 hook=plan hook shared=inventory,orders,track exp=thesis_ops proj=ledgerflow proof=ledger.exactly_once_effect
+garmin                 OK   body=126 letter=133 ach=1 hook=plan hook shared=action,analysis,cause,corrective exp=thesis_ops proj=pintos proof=-
+ixl                    OK   body=121 letter=128 ach=1 hook=plan hook shared=back-end,educational,logic,students exp=thesis_ops proj=launchops proof=launchops.live_quiz
+l3harris               OK   body=122 letter=129 ach=1 hook=plan hook shared=activities,customer,deployment,integration exp=thesis_iot proj=ledgerflow proof=-
+lumen                  OK   body=132 letter=139 ach=1 hook=plan hook shared=accuracy,agent,agents,calling exp=hein proj=goingonce proof=-
+nvidia                 OK   body=122 letter=129 ach=1 hook=plan hook shared=algorithms,deep,learning,models exp=hein proj=fraud proof=-
+qa_sdet                OK   body=136 letter=143 ach=1 hook=plan hook shared=before,customers,failures,find exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+research_phd           OK   body=127 letter=134 ach=1 hook=plan hook shared=discovery,models,scientific exp=hein proj=fraud proof=fraud.edge_ablation_result
+robot_sdet             OK   body=124 letter=131 ach=1 hook=plan hook shared=automation,before,fleet,frameworks exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+serco_snow             OK   body=123 letter=130 ach=1 hook=plan hook shared=assist,configuration,development,itsm exp=thesis_ops proj=ledgerflow proof=-
+stratus                OK   body=120 letter=127 ach=1 hook=posting responsibility shared=automate,infrastructure,provisioning exp=thesis_ops proj=ledgerflow proof=-
+wgu                    OK   body=130 letter=137 ach=1 hook=posting responsibility shared=analysis,data,pipelines exp=godigital proj=ledgerflow proof=ledger.exactly_once_effect
+fixtures=20 built=20 min_spare=10.51(qa_sdet) max_spare=10.77 problems=0
