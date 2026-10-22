@@ -1,20 +1,18 @@
-# Run 2 (page) - Resume_Pipeline_3_4_9c_2.zip, from Resume_Pipeline_3_4_9c_1.zip (input unchanged)
-Flag `page_v349c` (v347_flags, default true, 40 flags). Template 1bdb13f9, master 2e55c1c9, bank 914805e9 unchanged; 5 files differ from _1.
-- Done: Standard reference preamble; \rolegap after the name line; \hspace{0.5em}|\hspace{0.5em} separators; Education on two lines (coursework under the Master's line); no Certifications & Awards (awards, hackathon evidence and the heading leave the loaded master at run time; bank variants naming 1st Place / Copart / Cloud Practitioner are not selectable; a build fails if one renders); 10.5pt buffer.
-- APPROVED DEVIATIONS (Jay 2026-10-22), not an exact match to the Trial2 visual spec: (1) left/right margins 0.3in, not 0.4in; (2) Standard reference spacing on new-grad pages too, not the NewGrad spacing. Reason: with them 6/16 GATE16 pages lost Skills items or bullets (blocked draft, branch wip/v349c-run2-page-blocked).
-- Content lock: the Letter fit runs on the run 1 page first and the new page starts at the attempt it kept, so the freed space never adds bullets (it had added slots on allergan, giga_swe, nvidia_infra).
-- Education "\textit{}" kept on both dates, as in the references.
-## GATE16 vs Run 1 baseline (_1.zip re-run: identical to the Run 1 flag-on outputs)
-- Flag off: 16/16 byte-identical to Run 1 (timestamps/durations ignored).
-- Flag on: 16/16 PASS, one US Letter page each, spare >= 10.5pt on all (min 10.8 ebsco_sde1, max 62.1).
-- Experience, Projects and Skills sections, ranking, display order, bank selections and resolved skills: identical on 16/16.
-- Letters, tracker rows, outreach: byte-identical on 16/16. Grep 1st Place / Copart / Cloud Practitioner: 0 resumes.
-- report.json only: skills_text_hash, free_space_pt, letter_fit attempt logs (start at the run 1 choice); judge_packet.md, quality_v33.json, tex_sha256.txt follow the page.
+# Run 3 (Thesis, coursework) - Resume_Pipeline_3_4_9c_3.zip, from Resume_Pipeline_3_4_9c_2.zip (input unchanged)
+Flags `thesis_v349c`, `coursework_v349c` (independent, default true, 42 flags). Template a3aaddd9, master b5dbde69, bank 914805e9 unchanged; 5 files differ from _2.
+- Thesis: first bullet = approved variant I (Agile/Scrum, reviewed and merged team pull requests; both in master's Thesis evidence) by default; variant E (requirements first) only when a role line asks for requirements work or 2+ role lines name stakeholders / business users / clients. Mentor bullet = the one-line text given.
+- Coursework: new-grad pages only; 1 point per listed term in the title + role lines; top 3 (ties: table order) when 2+ courses score; one line under the Master's line. Interpretation: with exactly 2 matches the third course is the next in table order (giga_swe: Algorithms, score 0).
+- Content decisions (bullets, slots) are made with run 3 flags off, as in run 2; the kept attempt is retried first with the coursework line allowed.
+## GATE16 vs Run 2 baseline (_2.zip re-run: identical to the Run 2 outputs)
+- Flag on: 16/16 PASS; resumes differ only in Thesis bullets and the coursework line; ranking and bank selections identical; letters, tracker rows, outreach byte-identical; one US Letter page; spare >= 10.5pt (min 16.0 figure).
+- Thesis: variant I on 13/16, E on 3 (akamai_se "translate requirements", allergan "gather and clarify requirements", ust_software_engineer business requirements + stakeholders). Mentor bullet one line on 16/16.
+- Coursework: 6/6 new-grad pages - allergan (Data Models, OS, Algorithms), cardinal (Data Models, Project Dev, OS), figure (OS, Security, Project Dev), giga_swe (OS, Data Intensive, Algorithms), macys (OS, Project Dev, Data Models), nvidia_infra (OS, Data Intensive, Algorithms); 3 courses on one rendered line each. Standard pages: none.
+- Flags off: both off = Run 2 byte-identical 16/16. thesis off: differs from Run 2 only in coursework, from flag-on only in Thesis (16/16). coursework off: differs from Run 2 only in Thesis, from flag-on only in coursework (16/16).
 ## ebsco_sde1 (inherited Run 1 failure)
-- Coursework line is back with all nine courses (2 lines), spare 10.8pt >= 10.5pt; a permitted Education change. Run 3 must still apply the top-3 rule.
+- RESOLVED by the new rule: ebsco_sde1 is a standard (not new-grad) page, so no coursework line is shown; spare 34.3pt. The nine-course two-line problem cannot recur: the line is now at most 3 courses on one line (checked on all 6 pages that show it).
 ## Checks
 - bank_check: 120 variants, 0 failing. selftest_v349b: ALL PASS (44). selftest_v348b: 77 pass, 3 FAIL - "hash lock lists" pipeline / master / template: unresolved, deferred to Run 9 (instructions not edited).
-- Selftest edits: flag count 40; page_v349c added to flag-off lists that compare with older baselines; v349b format checks read the run 1 template (page_v349c off).
+- Selftest edits: flag count 42; thesis_v349c / coursework_v349c added to flag-off lists that compare with older baselines.
 - Not run: all 128 fixtures, selftests v341-v349a.
-## Run 5 note
-Assess whether more airiness (0.4in margins, NewGrad spacing) can return without losing content or the 10.5pt buffer; margins stay 0.3in until then.
+## Carried forward
+Run 2 deviations stay (0.3in side margins, Standard spacing on new-grad pages; not an exact Trial2 match). Run 5: assess restoring airiness without losing content or the 10.5pt buffer.
