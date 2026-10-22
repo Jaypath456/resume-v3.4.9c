@@ -1,0 +1,324 @@
+# Run 9 full 128 (release code b04aa71d, all nine flags on)
+fixtures=128 exit0=128
+apple        PASS fam=data_science_ml rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=High blockers=-
+ixl          PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Medium blockers=-
+pocketly     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+paypal       PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+amplify      PASS fam=backend rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+research_phd PASS fam=general_swe rank=fraud/ripple/launchops page=ripple/fraud/launchops fit=Low blockers=-
+microsoft    PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+appian_sec   PASS fam=general_swe rank=pintos/launchops/goingonce page=goingonce/pintos/launchops fit=Medium blockers=graduation_year
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+amazon       PASS fam=general_swe rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Medium blockers=-
+tiktok_appsec PASS fam=general_swe rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=start_date
+lumen        PASS fam=ai_llm rank=goingonce/ripple/tailor_pipeline page=goingonce/ripple/tailor_pipeline fit=High blockers=-
+atoms        PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+ios_randstad PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+stratus      PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+wpp          PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Medium blockers=-
+monti        PASS fam=general_swe rank=ripple/goingonce/launchops page=goingonce/ripple/launchops fit=Medium blockers=-
+northbeam    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+fanatics     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+raydar_swe   PASS fam=general_swe rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Low blockers=-
+nvidia_ai_cloud PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Low blockers=graduation_year
+assetwatch   PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+roblox       PASS fam=general_swe rank=ripple/fraud/launchops page=ripple/fraud/launchops fit=Low blockers=work_authorization_or_sponsorship
+corvex       PASS fam=sdet_quality rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+klaviyo      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+nvidia_infra PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Low blockers=-
+serco_snow   PASS fam=support_sustaining rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+vindexa      PASS fam=general_swe rank=goingonce/ripple/launchops page=goingonce/ripple/launchops fit=Medium blockers=-
+booz_allen   PASS fam=ai_llm rank=ripple/tailor_pipeline/goingonce page=goingonce/ripple/tailor_pipeline fit=Low blockers=clearance
+halcyon      PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Low blockers=-
+inspire11    PASS fam=general_swe rank=ledgerflow/goingonce/ripple page=ledgerflow/goingonce/ripple fit=Low blockers=work_authorization_or_sponsorship
+flowgen      PASS fam=ai_llm rank=ripple/tailor_pipeline/goingonce page=goingonce/ripple/tailor_pipeline fit=Medium blockers=-
+brightpath_fs PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+instalily    PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+garmin       PASS fam=systems rank=pintos/ripple/ledgerflow page=ledgerflow/ripple/pintos fit=Low blockers=-
+linkedin_ai  PASS fam=data_science_ml rank=ripple/tailor_pipeline/fraud page=ripple/tailor_pipeline/fraud fit=Medium blockers=-
+otter        PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+fonzi        SKIP no_requirements: no job requirements were found; this reads as a recruiting ad, not a job posting
+meridian_sw  PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+rocketmoney  PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=-
+tailscale    PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+doordash_mdx PASS fam=data_science_ml rank=ripple/ledgerflow/tailor_pipeline page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+jobgether    PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+perplexity   PASS fam=fullstack rank=launchops/ripple/ledgerflow page=ledgerflow/ripple/launchops fit=Medium blockers=-
+macys        PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Low blockers=student_audience,enrollment_required
+audit01      PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+pinterest    PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+audit02      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+black_canyon PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+us_cold      PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+audit03      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+wgu          PASS fam=data_engineering rank=ledgerflow/fraud/launchops page=ledgerflow/fraud/launchops fit=Medium blockers=-
+twitch_se1   PASS fam=backend rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+audit04      PASS fam=data_engineering rank=ledgerflow/ripple/fraud page=ledgerflow/ripple/fraud fit=Low blockers=work_authorization_or_sponsorship
+applied_mat  PASS fam=general_swe rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Low blockers=-
+elevenlabs   PASS fam=devops_cloud rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+audit05      PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=work_authorization_or_sponsorship
+umich        PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+cisco_no_title SKIP no_title: paste the job title line
+audit06      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Low blockers=work_authorization_or_sponsorship
+engen        PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+audible      PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+audit07      PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+dassault     PASS fam=data_science_ml rank=fraud/ripple/launchops page=ripple/fraud/launchops fit=Medium blockers=-
+laminar      PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+audit08      PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=citizenship,clearance
+impact       PASS fam=fullstack rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+audible_md   PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+audit09      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+bae          PASS fam=general_swe rank=ledgerflow/pintos/launchops page=ledgerflow/pintos/launchops fit=Low blockers=clearance
+quora        PASS fam=data_science_ml rank=ripple/fraud/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+audit10      PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+ga_asi       PASS fam=general_swe rank=ledgerflow/pintos/ripple page=ledgerflow/ripple/pintos fit=Low blockers=clearance
+zoro_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+audit11      PASS fam=general_swe rank=pintos/ledgerflow/launchops page=ledgerflow/pintos/launchops fit=Medium blockers=-
+serco_sw     PASS fam=support_sustaining rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+alml_engineer PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+audit12      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=High blockers=-
+dominos      PASS fam=data_science_ml rank=fraud/ledgerflow/launchops page=ledgerflow/fraud/launchops fit=Low blockers=-
+ust_software_engineer PASS fam=backend rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia       PASS fam=data_science_ml rank=fraud/ripple/pintos page=ripple/pintos/fraud fit=Low blockers=enrollment_required
+harvey       PASS fam=general_swe rank=ripple/goingonce/launchops page=goingonce/ripple/launchops fit=High blockers=start_date
+meritore_capgemini PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+linkedin     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+arclight     PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=-
+akamai_se    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+spacexsi     PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+chewy        PASS fam=general_swe rank=ripple/ledgerflow/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+novita       PASS fam=ai_llm rank=tailor_pipeline/ripple/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=High blockers=-
+amplitude    PASS fam=general_swe rank=ripple/ledgerflow/goingonce page=ledgerflow/goingonce/ripple fit=High blockers=-
+giga_swe     PASS fam=ai_llm rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+google_sre   PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+bti          PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=-
+meritore_jpc PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+ng_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+brightpath_ml PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Medium blockers=-
+qa_sdet      PASS fam=sdet_quality rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+cobalt       PASS fam=backend rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+frontend     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+l3harris     PASS fam=support_sustaining rank=ledgerflow/pintos/launchops page=ledgerflow/pintos/launchops fit=Low blockers=degree_recency
+mastercard   PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+raydar_backend PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+brillio      PASS fam=ai_llm rank=goingonce/ripple/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+swisslog     PASS fam=support_sustaining rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Low blockers=-
+nimble       PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+fulfillment  PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+rockstar     PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Medium blockers=-
+meridian_bank PASS fam=general_swe rank=ledgerflow/fraud/ripple page=ledgerflow/ripple/fraud fit=Low blockers=work_authorization_or_sponsorship
+nvidia_devtech PASS fam=general_swe rank=pintos/ripple/ledgerflow page=ledgerflow/ripple/pintos fit=Low blockers=clearance,graduation_year
+ironvale     PASS fam=general_swe rank=ledgerflow/pintos/ripple page=ledgerflow/ripple/pintos fit=Low blockers=citizenship,clearance
+doordash     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+loopwell     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+brex         PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Medium blockers=-
+acme_cloud   PASS fam=general_swe rank=launchops/pintos/ledgerflow page=ledgerflow/pintos/launchops fit=Medium blockers=-
+fidelity     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+robot_sdet   PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+anthropic_it PASS fam=general_swe rank=launchops/tailor_pipeline/goingonce page=goingonce/tailor_pipeline/launchops fit=Low blockers=-
+pinecrest    PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+cdi          PASS fam=general_swe rank=ripple/launchops/goingonce page=goingonce/ripple/launchops fit=Medium blockers=start_date
+twitch       PASS fam=general_swe rank=ledgerflow/fraud/pintos page=ledgerflow/pintos/fraud fit=High blockers=-
+allergan     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+helix        PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+birthmodel   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+sparkline    PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+commure      PASS fam=general_swe rank=ledgerflow/fraud/launchops page=ledgerflow/fraud/launchops fit=Low blockers=graduation_year
+northwind    PASS fam=general_swe rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+fixtures=128 built=126 min_spare=10.51(atoms) max_spare=10.77 problems=0
+
+# Grep gates (tools/grep_r9.py)
+{'fixtures': 128, 'resumes': 126, 'letters': 126, 'resume_hits': 0, 'letter_hits': 0} fixtures with hits: 0
+
+# Letter gate (tools/gate_r8.py) vs Run 6 final outputs: resume .tex / tracker / outreach identity + letter rules
+acme_cloud             OK   body=135 letter=142 ach=1 hook=plan hook shared=infrastructure,large-scale,storage exp=thesis_iot proj=launchops proof=-
+akamai_se              OK   body=137 letter=144 ach=1 hook=plan hook shared=akamai,cloud,configuration,customer-facing exp=thesis_client proj=ledgerflow proof=exp.thesis_iot
+allergan               OK   body=144 letter=151 ach=1 hook=plan hook shared=apis,clinical,integrations,regulatory exp=thesis_client proj=ledgerflow proof=ledger.exactly_once_effect
+alml_engineer          OK   body=128 letter=135 ach=1 hook=plan hook shared=evaluation,learning,llm-based,machine exp=hein proj=fraud proof=-
+amazon                 OK   body=122 letter=129 ach=1 hook=plan hook shared=both,correctness,infrastructure,matter exp=thesis_iot proj=ledgerflow proof=ledger.chaos_runs
+amplify                OK   body=131 letter=138 ach=1 hook=plan hook shared=ability,assess,child,effectively exp=thesis_ops proj=launchops proof=launchops.ownership
+amplitude              OK   body=128 letter=135 ach=1 hook=plan hook shared=agent,apis,backend,evaluation exp=hein proj=ripple proof=ripple.git_verification
+anthropic_it           OK   body=130 letter=137 ach=1 hook=plan hook shared=automate,much,playbook,possible exp=datamaven proj=launchops proof=-
+appian_sec             OK   body=122 letter=129 ach=1 hook=plan hook shared=information,programs,security exp=thesis_iot proj=pintos proof=launchops.ownership
+apple                  OK   body=125 letter=132 ach=1 hook=plan hook shared=apple,customer,data,experiences exp=hein proj=fraud proof=exp.datamaven_access
+applied_mat            OK   body=130 letter=137 ach=1 hook=plan hook shared=analysis,coordinate,data,feedback exp=thesis_iot proj=ledgerflow proof=exp.datamaven_access
+arclight               OK   body=127 letter=134 ach=1 hook=plan hook shared=concurrency,embedded,environment,file exp=thesis_iot proj=pintos proof=-
+assetwatch             OK   body=150 letter=157 ach=1 hook=plan hook shared=moderately,tasks,while exp=thesis_ops proj=launchops proof=launchops.ownership
+atoms                  OK   body=125 letter=132 ach=1 hook=plan hook shared=atoms,everyday,join,life exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+audible                OK   body=152 letter=159 ach=1 hook=plan hook shared=audible,audio,listeners,storytelling exp=thesis_ops proj=ledgerflow proof=ledger.ci
+audible_md             OK   body=152 letter=159 ach=1 hook=plan hook shared=audible,audio,listeners,storytelling exp=thesis_ops proj=ledgerflow proof=ledger.ci
+audit01                OK   body=131 letter=138 ach=1 hook=plan hook shared=development,engineering,group,improvements exp=thesis_ops proj=ledgerflow proof=ledger.ci
+audit02                OK   body=138 letter=145 ach=1 hook=plan hook shared=apis,connect,data,experiences exp=thesis_ops proj=ledgerflow proof=ledger.ci
+audit03                OK   body=124 letter=131 ach=1 hook=posting responsibility shared=checkout,endpoints,used exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+audit04                OK   body=122 letter=129 ach=1 hook=plan hook shared=checks,data,datasets,extracting exp=godigital proj=ledgerflow proof=-
+audit05                OK   body=131 letter=138 ach=1 hook=plan hook shared=patient,scheduling exp=thesis_client proj=launchops proof=launchops.ownership
+audit06                OK   body=120 letter=127 ach=1 hook=plan hook shared=claims,engineering,evaluation,experiment exp=hein proj=ripple proof=-
+audit07                OK   body=132 letter=139 ach=1 hook=plan hook shared=automation,cloud,collaboration,developers exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+audit08                OK   body=129 letter=136 ach=1 hook=plan hook shared=concurrency,control,embedded,knowledge exp=thesis_iot proj=pintos proof=-
+audit09                OK   body=121 letter=128 ach=1 hook=plan hook shared=before,businesses,changes,failure exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+audit10                OK   body=131 letter=138 ach=1 hook=plan hook shared=before,changes,clients,engineers exp=datamaven proj=launchops proof=ledger.ci
+audit11                OK   body=124 letter=131 ach=1 hook=plan hook shared=account,negotiation,presentation,region exp=thesis_iot proj=pintos proof=ledger.ci
+audit12                OK   body=132 letter=139 ach=1 hook=plan hook shared=apis,configure,evaluation,internal exp=hein proj=ripple proof=-
+bae                    OK   body=124 letter=131 ach=1 hook=plan hook shared=coding,debugging,integrating,regression exp=thesis_iot proj=ledgerflow proof=ledger.ci
+birthmodel             OK   body=126 letter=133 ach=1 hook=plan hook shared=apis,backend,clinical,delivery exp=thesis_client proj=launchops proof=exp.thesis_heartbeat
+black_canyon           OK   body=137 letter=144 ach=1 hook=plan hook shared=apply,clinical,data,engineering exp=hein_health proj=fraud proof=-
+booz_allen             OK   body=134 letter=141 ach=1 hook=plan hook shared=apis,automation,llm-assisted,scripts exp=hein proj=ripple proof=-
+brex                   OK   body=134 letter=141 ach=1 hook=plan hook shared=data,models,pipelines,source-of-truth exp=godigital proj=fraud proof=ledger.ci
+brightpath_fs          OK   body=133 letter=140 ach=1 hook=plan hook shared=back,front,real-time exp=thesis_ops proj=launchops proof=ledger.ci
+brightpath_ml          OK   body=121 letter=128 ach=1 hook=plan hook shared=content,evaluate,learning,models exp=hein proj=fraud proof=-
+brillio                OK   body=142 letter=149 ach=1 hook=plan hook shared=agents,cases,full-stack,integrate exp=hein proj=goingonce proof=-
+bti                    OK   body=122 letter=129 ach=1 hook=plan hook shared=apis,back-end,connect,consume exp=thesis_ops proj=ledgerflow proof=launchops.ownership
+cardinal               OK   body=123 letter=130 ach=1 hook=plan hook shared=adjusters,claims,country,processing exp=datamaven proj=ledgerflow proof=ledger.chaos_runs
+cdi                    OK   body=148 letter=155 ach=1 hook=plan hook shared=activities,displays,instructors,learning exp=hein proj=ripple proof=ripple.git_verification
+chewy                  OK   body=149 letter=156 ach=1 hook=plan hook shared=apis,enterprise,error,established exp=thesis_ops proj=ripple proof=exp.thesis_iot
+cobalt                 OK   body=122 letter=129 ach=1 hook=plan hook shared=analytics,apis,behind,dashboards exp=thesis_backend proj=ledgerflow proof=launchops.server_checks
+commure                OK   body=127 letter=134 ach=1 hook=plan hook shared=apis,clinical,healthcare,workflows exp=thesis_client proj=ledgerflow proof=ledger.exactly_once_effect
+corvex                 OK   body=126 letter=133 ach=1 hook=plan hook shared=apis,automated,chaos,distributed exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+dassault               OK   body=137 letter=144 ach=1 hook=plan hook shared=architecture exp=hein_health proj=fraud proof=-
+dominos                OK   body=131 letter=138 ach=1 hook=plan hook shared=algorithms,analysis,apply,data exp=hein proj=fraud proof=-
+doordash               OK   body=152 letter=159 ach=1 hook=plan hook shared=architecture,backend,doordash,microservice-based exp=thesis_ops proj=ledgerflow proof=ledger.ci
+doordash_mdx           OK   body=140 letter=147 ach=1 hook=plan hook shared=agents,doordash,evaluate,experiments exp=hein proj=ripple proof=-
+ebsco_sde1             OK   body=126 letter=133 ach=1 hook=plan hook shared=careful,development,ebsco,research exp=thesis_ops proj=launchops proof=launchops.ownership
+elevenlabs             OK   body=122 letter=129 ach=1 hook=plan hook shared=correct,elevenlabs,every,foundations exp=thesis_ops proj=launchops proof=-
+engen                  OK   body=130 letter=137 ach=1 hook=plan hook shared=claims,financial,operations,processing exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+fanatics               OK   body=120 letter=127 ach=1 hook=plan hook shared=apis,backend,deployment,development exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+fidelity               OK   body=129 letter=136 ach=1 hook=plan hook shared=autonomous,cross-functional,desktop,experience exp=thesis_backend proj=ledgerflow proof=ledger.chaos_runs
+figure                 OK   body=144 letter=151 ach=1 hook=plan hook shared=figure,fleet,infrastructure,keeps exp=thesis_iot proj=pintos proof=pintos.safety
+flowgen                OK   body=135 letter=142 ach=1 hook=plan hook shared=agents,compliantly,configure,enterprise exp=thesis_client proj=ripple proof=-
+frontend               OK   body=132 letter=139 ach=1 hook=plan hook shared=apis,backend,engineers,interfaces exp=thesis_ops proj=launchops proof=launchops.live_quiz
+fulfillment            OK   body=121 letter=128 ach=1 hook=plan hook shared=inventory,orders,track exp=thesis_ops proj=ledgerflow proof=ledger.exactly_once_effect
+ga_asi                 OK   body=126 letter=133 ach=1 hook=plan hook shared=coding,data,documentation,implementation exp=thesis_iot proj=ledgerflow proof=ledger.ci
+garmin                 OK   body=126 letter=133 ach=1 hook=plan hook shared=action,analysis,cause,corrective exp=thesis_ops proj=pintos proof=-
+giga_swe               OK   body=132 letter=139 ach=1 hook=plan hook shared=agents,backend,customer,data exp=hein proj=ripple proof=ripple.analysis_tools
+google_sre             OK   body=120 letter=127 ach=1 hook=plan hook shared=automation,eliminating,fault-tolerant,infrastructure exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+halcyon                OK   body=129 letter=136 ach=1 hook=plan hook shared=data,ingest,pipelines,sources exp=godigital proj=fraud proof=-
+harvey                 OK   body=151 letter=158 ach=1 hook=plan hook shared=automation,document,intelligence,retrieval exp=hein proj=ripple proof=ripple.git_verification
+helix                  OK   body=129 letter=136 ach=1 hook=plan hook shared=authorization,card exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+impact                 OK   body=131 letter=138 ach=1 hook=plan hook shared=apis,first,mindset,modules exp=thesis_ops proj=ledgerflow proof=ledger.ci
+inspire11              OK   body=146 letter=153 ach=1 hook=plan hook shared= exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+instalily              OK   body=123 letter=130 ach=1 hook=plan hook shared=customers,enterprise,instalily,shipped exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+ios_randstad           OK   body=125 letter=132 ach=1 hook=plan hook shared=issues,leaks,memory,such exp=thesis_backend proj=ledgerflow proof=ledger.chaos_runs
+ironvale               OK   body=122 letter=129 ach=1 hook=plan hook shared=ground,mission,satellite exp=thesis_iot proj=ledgerflow proof=ledger.ci
+ixl                    OK   body=121 letter=128 ach=1 hook=plan hook shared=back-end,educational,logic,students exp=thesis_ops proj=launchops proof=launchops.live_quiz
+jobgether              OK   body=132 letter=139 ach=1 hook=plan hook shared=automated,fixes,meaningful,well-tested exp=thesis_client proj=launchops proof=launchops.ownership
+klaviyo                OK   body=136 letter=143 ach=1 hook=plan hook shared=backend,brands,engineering,foundational exp=hein proj=ripple proof=ripple.claude_code_dev
+l3harris               OK   body=122 letter=129 ach=1 hook=plan hook shared=activities,customer,deployment,integration exp=thesis_iot proj=ledgerflow proof=-
+laminar                OK   body=127 letter=134 ach=1 hook=plan hook shared=data,developer,industrial,insight exp=thesis_iot proj=fraud proof=fraud.leakage
+linkedin               OK   body=149 letter=156 ach=1 hook=plan hook shared=apis,asynchronous,backend,extensible exp=thesis_backend proj=ledgerflow proof=ledger.overspend_test
+linkedin_ai            OK   body=137 letter=144 ach=1 hook=plan hook shared=classification,experiments,recommender,through exp=hein proj=ripple proof=-
+loopwell               OK   body=131 letter=138 ach=1 hook=plan hook shared=backend,clinics,frontend,patients exp=thesis_client proj=launchops proof=launchops.live_quiz
+lumen                  OK   body=132 letter=139 ach=1 hook=plan hook shared=accuracy,agent,agents,calling exp=hein proj=goingonce proof=-
+macys                  OK   body=135 letter=142 ach=1 hook=plan hook shared=clearly,commerce,connected,customers exp=datamaven proj=ledgerflow proof=ledger.ci
+mastercard             OK   body=120 letter=127 ach=1 hook=plan hook shared=apis,distributed,event-driven,microservices exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+meridian_bank          OK   body=127 letter=134 ach=1 hook=plan hook shared=automated,checks,data,pipelines exp=godigital proj=ledgerflow proof=ledger.ci
+meridian_sw            OK   body=124 letter=131 ach=1 hook=plan hook shared=apis,backend,databases,ends exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+meritore_capgemini     OK   body=136 letter=143 ach=1 hook=plan hook shared=meritore,modules exp=thesis_ops proj=ledgerflow proof=ledger.ci
+meritore_jpc           OK   body=124 letter=131 ach=1 hook=plan hook shared=integration,meritore,modules,reviews exp=thesis_ops proj=ledgerflow proof=ledger.ci
+microsoft              OK   body=122 letter=129 ach=1 hook=plan hook shared=engineering,patterns,repeatable,velocity exp=thesis_iot proj=ledgerflow proof=ledger.ci
+monti                  OK   body=153 letter=160 ach=1 hook=plan hook shared=ai-assisted,automations,internal,messy exp=hein proj=ripple proof=ripple.git_verification
+ng_fullstack           OK   body=128 letter=135 ach=1 hook=plan hook shared=development,fullstack,internal,workflows exp=thesis_backend proj=launchops proof=ledger.ci
+nimble                 OK   body=129 letter=136 ach=1 hook=plan hook shared=backend,bottlenecks,debug,feature exp=thesis_ops proj=ledgerflow proof=-
+northbeam              OK   body=137 letter=144 ach=1 hook=plan hook shared=correctness,event-driven,focus,idempotency exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+northwind              OK   body=135 letter=142 ach=1 hook=plan hook shared=internal,small,weekly exp=thesis_backend proj=launchops proof=ledger.ci
+novita                 OK   body=135 letter=142 ach=1 hook=plan hook shared=automation,customer-specific,customers,integrations exp=thesis_ops proj=tailor_pipeline proof=-
+nvidia                 OK   body=122 letter=129 ach=1 hook=plan hook shared=algorithms,deep,learning,models exp=hein proj=fraud proof=-
+nvidia_ai_cloud        OK   body=137 letter=144 ach=1 hook=plan hook shared=agentic,architecture,cloud-native,evaluate exp=thesis_ops proj=ripple proof=-
+nvidia_devtech         OK   body=136 letter=143 ach=1 hook=plan hook shared=algorithms,crafting,data,developers exp=thesis_iot proj=pintos proof=-
+nvidia_infra           OK   body=152 letter=159 ach=1 hook=plan hook shared=analyze,collect,deployment,internal exp=thesis_ops proj=ledgerflow proof=exp.thesis_iot
+otter                  OK   body=138 letter=145 ach=1 hook=plan hook shared=backend,budgeting,campaign,delivery exp=thesis_ops proj=ledgerflow proof=ledger.ci
+paypal                 OK   body=137 letter=144 ach=1 hook=plan hook shared=development,lifecycle,reviews,tasks exp=thesis_ops proj=ledgerflow proof=ledger.ci
+perplexity             OK   body=120 letter=127 ach=1 hook=plan hook shared=ai-driven,applied,growth,onboarding exp=hein proj=launchops proof=launchops.ownership
+pinecrest              OK   body=134 letter=141 ach=1 hook=plan hook shared=messaging,microservices,patient-facing,scheduling exp=thesis_client proj=ledgerflow proof=ledger.ci
+pinterest              OK   body=132 letter=139 ach=1 hook=plan hook shared=analysis,apply,discovery,graph exp=hein proj=fraud proof=ripple.claude_code_dev
+pocketly               OK   body=133 letter=140 ach=1 hook=plan hook shared=apis,expenses,iphone,people exp=thesis_backend proj=ledgerflow proof=ledger.ci
+qa_sdet                OK   body=136 letter=143 ach=1 hook=plan hook shared=before,customers,failures,find exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+quora                  OK   body=138 letter=145 ach=1 hook=plan hook shared=agentic,automate,content,decisions exp=hein proj=ripple proof=ripple.evaluation
+raydar_backend         OK   body=130 letter=137 ach=1 hook=plan hook shared=backend,cope,dependable,inputs exp=thesis_backend proj=ledgerflow proof=launchops.ownership
+raydar_swe             OK   body=122 letter=129 ach=1 hook=plan hook shared=automated,data,extraction,multi-step exp=hein proj=ripple proof=-
+research_phd           OK   body=127 letter=134 ach=1 hook=plan hook shared=discovery,models,scientific exp=hein proj=fraud proof=fraud.edge_ablation_result
+roblox                 OK   body=132 letter=139 ach=1 hook=plan hook shared=account,detect,implementation,landing exp=hein proj=ripple proof=ripple.git_verification
+robot_sdet             OK   body=124 letter=131 ach=1 hook=plan hook shared=automation,before,fleet,frameworks exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+rocketmoney            OK   body=121 letter=128 ach=1 hook=plan hook shared=financial,important,interfaces,members exp=thesis_backend proj=launchops proof=launchops.ownership
+rockstar               OK   body=125 letter=132 ach=1 hook=plan hook shared=administration,architecture,benefit,carrier exp=thesis_client proj=launchops proof=exp.thesis_heartbeat
+serco_snow             OK   body=122 letter=129 ach=1 hook=plan hook shared=assist,configuration,development,itsm exp=thesis_ops proj=ledgerflow proof=-
+serco_sw               OK   body=137 letter=144 ach=1 hook=plan hook shared=assist,configuration,development exp=thesis_ops proj=ledgerflow proof=-
+spacexsi               OK   body=131 letter=138 ach=1 hook=plan hook shared=algorithms,apply,people,ranking exp=hein proj=fraud proof=-
+sparkline              OK   body=126 letter=133 ach=1 hook=plan hook shared=accessible,dashboards,designers,responsive exp=thesis_backend proj=launchops proof=launchops.live_quiz
+stratus                OK   body=121 letter=128 ach=1 hook=plan hook shared=container,operate,pipelines exp=thesis_ops proj=ledgerflow proof=-
+swisslog               OK   body=129 letter=136 ach=1 hook=plan hook shared=analyzing,causes,identifying,investigate exp=thesis_ops proj=ledgerflow proof=-
+tailscale              OK   body=128 letter=135 ach=1 hook=plan hook shared=document,observability exp=thesis_ops proj=ledgerflow proof=-
+tiktok_appsec          OK   body=130 letter=137 ach=1 hook=plan hook shared=embed,entire,lifecycle,security exp=thesis_ops proj=launchops proof=-
+twitch                 OK   body=124 letter=131 ach=1 hook=plan hook shared=operate,payment exp=thesis_iot proj=ledgerflow proof=-
+twitch_se1             OK   body=126 letter=133 ach=1 hook=plan hook shared=both,commerce,creators,engineering exp=thesis_backend proj=ledgerflow proof=exp.thesis_heartbeat
+umich                  OK   body=121 letter=128 ach=1 hook=plan hook shared=apis,authentication,production-quality,such exp=thesis_ops proj=launchops proof=launchops.ownership
+us_cold                OK   body=128 letter=135 ach=1 hook=plan hook shared=cold,management,storage,testable exp=thesis_backend proj=ledgerflow proof=ledger.chaos_runs
+ust_software_engineer  OK   body=149 letter=156 ach=1 hook=plan hook shared=apis,backend,integrations exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+vindexa                FAIL body=142 letter=149 ach=1 hook=plan hook shared=architectural,data,decisions,defend exp=hein proj=goingonce proof=- :: changed Vindexa_Founding_Engineer.tex
+wgu                    OK   body=127 letter=134 ach=1 hook=plan hook shared=apis,data,databases,external exp=godigital proj=ledgerflow proof=ledger.exactly_once_effect
+wpp                    OK   body=126 letter=133 ach=1 hook=plan hook shared=client,creative,data,engineering exp=godigital proj=fraud proof=-
+zoro_fullstack         OK   body=121 letter=128 ach=1 hook=plan hook shared=customer,data,demand,deployment exp=thesis_backend proj=launchops proof=ledger.ci
+
+# audit_v344 (unchanged tool)
+built 126 | fallback closings 87 (69.0%) | max closing 30 words | max letter 160 words
+FAIL alml_engineer: closing repeats a letter proof (words ['apply', 'evalu', 'learn', 'machi', 'model', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to your team's machine learning work.
+FAIL anthropic_it: closing repeats a letter proof (words ['anthr', 'build', 'team', 'want']): I want to build dependable, well-tested software with the team at Anthropic.
+FAIL arclight: closing repeats a letter proof (words ['arcli', 'devic', 'engin', 'syste', 'want']): I want to grow as a systems engineer at Arclight Devices.
+FAIL audit04: closing repeats a letter proof (words ['data', 'signa', 'team', 'want']): I want to build trustworthy data pipelines with the team at SignalHarbor.
+FAIL audit06: closing repeats a letter proof (words ['model', 'syste', 'want']): I want to build grounded, well-tested AI systems at ModelBridge.
+FAIL audit08: closing repeats a letter proof (phrase 'redwood defense systems'; words ['defen', 'engin', 'redwo', 'syste', 'want']): I want to grow as a systems engineer at Redwood Defense Systems.
+FAIL audit12: closing repeats a letter proof (words ['groun', 'syste', 'vecto', 'want']): I want to build grounded, well-tested AI systems at VectorForge AI.
+FAIL black_canyon: closing repeats a letter proof (words ['apply', 'black', 'canyo', 'consu', 'learn', 'model', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to Black Canyon Consulting's machine learning work.
+FAIL booz_allen: closing repeats a letter proof (words ['allen', 'booz', 'groun', 'syste', 'want']): I want to build grounded, well-tested AI systems at Booz Allen.
+FAIL brightpath_ml: closing repeats a letter proof (words ['apply', 'brigh', 'evalu', 'learn', 'model', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to Brightpath AI's machine learning work.
+FAIL brillio: closing repeats a letter proof (words ['brill', 'build', 'syste', 'want']): I want to build grounded, well-tested AI systems at Brillio.
+FAIL dassault: closing repeats a letter proof (words ['apply', 'dassa', 'learn', 'model', 'solid', 'syste', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to Dassault Systemes SOLIDWORKS's machine learning work.
+FAIL dominos: closing repeats a letter proof (words ['apply', 'domin', 'learn', 'model', 'pizza', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to Domino's Pizza LLC's machine learning work.
+FAIL doordash_mdx: closing repeats a letter proof (words ['apply', 'doord', 'evalu', 'model', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to DoorDash's machine learning work.
+FAIL flowgen: closing repeats a letter proof (words ['flowg', 'groun', 'labs', 'want']): I want to build grounded, well-tested AI systems at FlowGen Labs.
+FAIL garmin: closing repeats a letter proof (words ['engin', 'garmi', 'syste', 'want']): I want to grow as a systems engineer at Garmin.
+FAIL giga_swe: closing repeats a letter proof (words ['again', 'check', 'claim']): I want to help build the systems that power the AI agents at Giga, drawing on RIPPLE, which checks every claim against evidence.
+FAIL halcyon: closing repeats a letter proof (phrase 'halcyon health analytics'; words ['analy', 'build', 'data', 'halcy', 'healt', 'pipel', 'team', 'want']): I want to build trustworthy data pipelines with the team at Halcyon Health Analytics.
+FAIL l3harris: closing repeats a letter proof (number ['3']; words ['custo', 'l3har', 'techn', 'want']): I want to keep L3Harris Technologies' software reliable for its customers.
+FAIL lumen: closing repeats a letter proof (words ['agent', 'build', 'lumen', 'syste', 'want']): I want to build grounded, well-tested AI systems at Lumen Agents.
+FAIL nimble: closing repeats a letter proof (words ['nimbl', 'robot', 'syste', 'want']): I want to keep systems healthy at Nimble Robotics.
+FAIL novita: closing repeats a letter proof (words ['build', 'novit', 'want']): I want to build grounded, well-tested AI systems at Novita AI.
+FAIL nvidia: closing repeats a letter proof (words ['apply', 'learn', 'model', 'nvidi', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to NVIDIA's machine learning work.
+FAIL nvidia_ai_cloud: closing repeats a letter proof (words ['nvidi', 'syste', 'want']): I want to build grounded, well-tested AI systems at NVIDIA.
+FAIL serco_snow: closing repeats a letter proof (words ['ameri', 'north', 'serco', 'want']): I want to keep Serco North America's software reliable for its customers.
+FAIL serco_sw: closing repeats a letter proof (words ['serco', 'softw', 'want']): I want to keep Serco's software reliable for its customers.
+FAIL spacexsi: closing repeats a letter proof (words ['apply', 'learn', 'machi', 'model', 'space', 'want', 'work']): I want to apply careful, baseline-checked model evaluation to SpaceXSI's machine learning work.
+FAIL stratus: closing repeats a letter proof (words ['cloud', 'strat', 'syste', 'want']): I want to keep systems healthy at Stratus Cloudworks.
+FAIL swisslog: closing repeats a letter proof (words ['softw', 'swiss', 'want']): I want to keep Swisslog's software reliable for its customers.
+FAIL tailscale: closing repeats a letter proof (words ['syste', 'tails', 'want']): I want to keep systems healthy at Tailscale.
+FAIL wpp: closing repeats a letter proof (words ['data', 'team', 'want', 'wpp']): I want to build trustworthy data pipelines with the team at WPP.
+FAIL fallback closings 69.0% > 10%
+audit_v344: 32 problem(s)
+
+# golden_check
+akamai_se              PASS  rank1=ledgerflow order=ledgerflow>ripple>launchops fit=High
+ebsco_sde1             PASS  rank1=launchops order=ledgerflow>ripple>launchops fit=Medium
+giga_swe               PASS  rank1=ripple order=goingonce>ledgerflow>ripple fit=Medium
+meritore_jpc           PASS  rank1=ledgerflow order=ledgerflow>ripple>launchops fit=Medium
+ust_software_engineer  PASS  rank1=ledgerflow order=ledgerflow>ripple>launchops fit=High
+zoro_fullstack         PASS  rank1=launchops order=ledgerflow>goingonce>launchops fit=High
+alml_engineer          PASS  rank1=fraud order=goingonce>ripple>fraud fit=High
+doordash_mdx           PASS  rank1=ripple order=ledgerflow>ripple>tailor_pipeline fit=Medium
+figure                 PASS  rank1=pintos order=ledgerflow>ripple>pintos fit=Low
+elevenlabs             PASS  rank1=launchops order=ledgerflow>ripple>launchops fit=High
+macys                  PASS  rank1=ledgerflow order=ledgerflow>pintos>launchops fit=Low
+audible                PASS  rank1=ledgerflow order=ledgerflow>ripple>launchops fit=High
+GOLDEN 12/12 PASS
+
+# score_all
+v340_original  fixtures  57 | resume mean 10.00 min 10.00 | letter mean 9.97 min 9.00 | below 9.5: 1 (giga_swe)
+v341_tune      fixtures  36 | resume mean 9.97 min 9.00 | letter mean 10.00 min 10.00 | below 9.5: 1 (research_phd)
+v342_new       fixtures   6 | resume mean 10.00 min 10.00 | letter mean 10.00 min 10.00 | below 9.5: 0
+v343_new       fixtures   2 | resume mean 10.00 min 10.00 | letter mean 10.00 min 10.00 | below 9.5: 0
+v344_new       fixtures   2 | resume mean 10.00 min 10.00 | letter mean 10.00 min 10.00 | below 9.5: 0
+v345_new       fixtures   1 | resume mean 10.00 min 10.00 | letter mean 10.00 min 10.00 | below 9.5: 0
+v347_new       fixtures   4 | resume mean 10.00 min 10.00 | letter mean 10.00 min 10.00 | below 9.5: 0
+holdout        fixtures  20 | resume mean 9.80 min 8.00 | letter mean 9.97 min 9.50 | below 9.5: 3 (acme_cloud, twitch, linkedin_ai)
+all            fixtures 128 | resume mean 9.96 min 8.00 | letter mean 9.98 min 9.00 | below 9.5: 5 (acme_cloud, twitch, research_phd, linkedin_ai, giga_swe)

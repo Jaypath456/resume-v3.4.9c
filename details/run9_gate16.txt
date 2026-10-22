@@ -1,0 +1,38 @@
+# Run 9 GATE16 (release code): flags on, and all nine flags off vs the original v3.4.9b ZIP (b9b)
+allergan     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+doordash_mdx PASS fam=data_science_ml rank=ripple/ledgerflow/tailor_pipeline page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+audible      PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+akamai_se    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia_infra PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Low blockers=-
+macys        PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Low blockers=student_audience,enrollment_required
+zoro_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+umich        PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+alml_engineer PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+giga_swe     PASS fam=ai_llm rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+elevenlabs   PASS fam=devops_cloud rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+ust_software_engineer PASS fam=backend rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+meritore_jpc PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+fixtures=16 built=16 min_spare=10.54(giga_swe) max_spare=10.77 problems=0
+flags on vs the same fixtures in the 128 run: 16/16 identical
+flags on vs Run 8 (b8): letters identical 16/16; other differences: version label (judge_packet.md, quality_v33.json), ebsco_sde1 report.json ranking_v349
+all nine flags off vs original v3.4.9b: 16/16 byte-identical
+
+# Selftests (release code)
+selftest_v348b exit=0 pass=80 fail=0 skip=0
+selftest_v349b exit=0 pass=44 fail=0 skip=0
+selftest_v341 exit=0 pass=28 fail=0 skip=0
+selftest_v342 exit=0 pass=26 fail=0 skip=6
+selftest_v344 exit=0 pass=55 fail=0 skip=0
+selftest_v346 exit=0 pass=54 fail=0 skip=0
+selftest_v343 exit=0 pass=37 fail=0 skip=0
+selftest_v345 exit=0 pass=59 fail=0 skip=0
+selftest_v347a exit=0 pass=65 fail=0 skip=0
+selftest_v347b exit=0 pass=94 fail=0 skip=0
+selftest_v347c exit=0 pass=39 fail=0 skip=0
+selftest_v348a exit=0 pass=163 fail=0 skip=0
+selftest_v348c exit=0 pass=90 fail=0 skip=0
+selftest_v349a exit=0 pass=24 fail=0 skip=0
+bank_check: 120 variants, 0 failing; Experience 10/10
