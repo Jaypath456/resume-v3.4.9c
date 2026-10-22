@@ -1,0 +1,170 @@
+# Run 6 full-128 (final code on the 23 fixtures where old or new detection finds a must term; first full run elsewhere)
+## Project set / rank 1 / order changes vs Run 5 (2/126 built)
+bti: rank 1, order: launchops/ledgerflow/goingonce -> ledgerflow/launchops/goingonce; must terms Java -> ledgerflow (∙ Working knowledge of Java and Python programming languages.); applied=True
+ebsco_sde1: rank 1, order: ledgerflow/ripple/launchops -> launchops/ledgerflow/ripple; must terms ReactJS -> launchops (- 0-3 years of professional experience in React (Next.js a plus) and modern web developmen); applied=True
+## Fixtures whose resume or letter changed vs Run 5
+assetwatch: 7 files
+bti: 9 files
+ebsco_sde1: 9 files
+vindexa: 8 files
+## Status lines
+apple        PASS fam=data_science_ml rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=High blockers=-
+audit02      PASS fam=backend rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+ng_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+ixl          PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+black_canyon PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+brightpath_ml PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Medium blockers=-
+pocketly     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+us_cold      PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+paypal       PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+audit03      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+qa_sdet      PASS fam=sdet_quality rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+amplify      PASS fam=backend rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+wgu          PASS fam=data_engineering rank=ledgerflow/fraud/launchops page=ledgerflow/fraud/launchops fit=Medium blockers=-
+cobalt       PASS fam=backend rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+research_phd PASS fam=general_swe rank=fraud/ripple/launchops page=ripple/fraud/launchops fit=Low blockers=-
+twitch_se1   PASS fam=backend rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+microsoft    PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+audit04      PASS fam=data_engineering rank=ledgerflow/ripple/fraud page=ledgerflow/ripple/fraud fit=Low blockers=work_authorization_or_sponsorship
+frontend     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+appian_sec   PASS fam=general_swe rank=pintos/launchops/goingonce page=goingonce/pintos/launchops fit=Medium blockers=graduation_year
+applied_mat  PASS fam=general_swe rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Low blockers=-
+l3harris     PASS fam=support_sustaining rank=ledgerflow/pintos/launchops page=ledgerflow/pintos/launchops fit=Low blockers=degree_recency
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+elevenlabs   PASS fam=devops_cloud rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+amazon       PASS fam=general_swe rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Medium blockers=-
+audit05      PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=work_authorization_or_sponsorship
+mastercard   PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+tiktok_appsec PASS fam=general_swe rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=start_date
+umich        PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+raydar_backend PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+lumen        PASS fam=ai_llm rank=goingonce/ripple/tailor_pipeline page=goingonce/ripple/tailor_pipeline fit=High blockers=-
+cisco_no_title SKIP no_title: paste the job title line
+atoms        PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+audit06      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Low blockers=work_authorization_or_sponsorship
+brillio      PASS fam=ai_llm rank=goingonce/ripple/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+ios_randstad PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+engen        PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+swisslog     PASS fam=support_sustaining rank=ledgerflow/ripple/pintos page=ledgerflow/ripple/pintos fit=Low blockers=-
+stratus      PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+audible      PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+wpp          PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Medium blockers=-
+audit07      PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+nimble       PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+monti        PASS fam=general_swe rank=ripple/goingonce/launchops page=goingonce/ripple/launchops fit=Medium blockers=-
+dassault     PASS fam=data_science_ml rank=fraud/ripple/launchops page=ripple/fraud/launchops fit=Medium blockers=-
+fulfillment  PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+northbeam    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+laminar      PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+fanatics     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+audit08      PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=citizenship,clearance
+rockstar     PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Medium blockers=-
+raydar_swe   PASS fam=general_swe rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Low blockers=-
+impact       PASS fam=fullstack rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+meridian_bank PASS fam=general_swe rank=ledgerflow/fraud/ripple page=ledgerflow/ripple/fraud fit=Low blockers=work_authorization_or_sponsorship
+nvidia_ai_cloud PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Low blockers=graduation_year
+audible_md   PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+assetwatch   PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+audit09      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia_devtech PASS fam=general_swe rank=pintos/ripple/ledgerflow page=ledgerflow/ripple/pintos fit=Low blockers=clearance,graduation_year
+roblox       PASS fam=general_swe rank=ripple/fraud/launchops page=ripple/fraud/launchops fit=Low blockers=work_authorization_or_sponsorship
+bae          PASS fam=general_swe rank=ledgerflow/pintos/launchops page=ledgerflow/pintos/launchops fit=Low blockers=clearance
+ironvale     PASS fam=general_swe rank=ledgerflow/pintos/ripple page=ledgerflow/ripple/pintos fit=Low blockers=citizenship,clearance
+corvex       PASS fam=sdet_quality rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+quora        PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+klaviyo      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+audit10      PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+doordash     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia_infra PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Low blockers=-
+ga_asi       PASS fam=general_swe rank=ledgerflow/pintos/ripple page=ledgerflow/ripple/pintos fit=Low blockers=clearance
+loopwell     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+serco_snow   PASS fam=support_sustaining rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+zoro_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+vindexa      PASS fam=general_swe rank=launchops/goingonce/ripple page=goingonce/ripple/launchops fit=Medium blockers=-
+audit11      PASS fam=general_swe rank=pintos/ledgerflow/launchops page=ledgerflow/pintos/launchops fit=Medium blockers=-
+brex         PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Medium blockers=-
+booz_allen   PASS fam=ai_llm rank=ripple/tailor_pipeline/goingonce page=goingonce/ripple/tailor_pipeline fit=Low blockers=clearance
+serco_sw     PASS fam=support_sustaining rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=citizenship
+acme_cloud   PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Medium blockers=-
+halcyon      PASS fam=data_engineering rank=fraud/ledgerflow/ripple page=ledgerflow/ripple/fraud fit=Low blockers=-
+alml_engineer PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+inspire11    PASS fam=general_swe rank=ledgerflow/goingonce/ripple page=ledgerflow/goingonce/ripple fit=Low blockers=work_authorization_or_sponsorship
+audit12      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=High blockers=-
+fidelity     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Low blockers=work_authorization_or_sponsorship
+flowgen      PASS fam=ai_llm rank=ripple/tailor_pipeline/goingonce page=goingonce/ripple/tailor_pipeline fit=Medium blockers=-
+dominos      PASS fam=data_science_ml rank=fraud/ledgerflow/launchops page=ledgerflow/fraud/launchops fit=Low blockers=-
+robot_sdet   PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+brightpath_fs PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+ust_software_engineer PASS fam=backend rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+instalily    PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+nvidia       PASS fam=data_science_ml rank=fraud/ripple/pintos page=ripple/pintos/fraud fit=Low blockers=enrollment_required
+anthropic_it PASS fam=general_swe rank=launchops/tailor_pipeline/goingonce page=goingonce/tailor_pipeline/launchops fit=Low blockers=-
+garmin       PASS fam=systems rank=pintos/ripple/ledgerflow page=ledgerflow/ripple/pintos fit=Low blockers=-
+harvey       PASS fam=general_swe rank=ripple/goingonce/launchops page=goingonce/ripple/launchops fit=High blockers=start_date
+pinecrest    PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+linkedin_ai  PASS fam=data_science_ml rank=ripple/tailor_pipeline/fraud page=ripple/tailor_pipeline/fraud fit=Medium blockers=-
+meritore_capgemini PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+otter        PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+linkedin     PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+cdi          PASS fam=general_swe rank=ripple/launchops/goingonce page=goingonce/ripple/launchops fit=Medium blockers=start_date
+fonzi        SKIP no_requirements: no job requirements were found; this reads as a recruiting ad, not a job posting
+arclight     PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=-
+twitch       PASS fam=general_swe rank=ledgerflow/fraud/pintos page=ledgerflow/pintos/fraud fit=High blockers=-
+meridian_sw  PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+akamai_se    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+rocketmoney  PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Low blockers=-
+spacexsi     PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+allergan     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+tailscale    PASS fam=devops_cloud rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+chewy        PASS fam=general_swe rank=ripple/ledgerflow/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+helix        PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+doordash_mdx PASS fam=data_science_ml rank=ripple/ledgerflow/tailor_pipeline page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+jobgether    PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+novita       PASS fam=ai_llm rank=tailor_pipeline/ripple/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=High blockers=-
+birthmodel   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+perplexity   PASS fam=fullstack rank=launchops/ripple/ledgerflow page=ledgerflow/ripple/launchops fit=Medium blockers=-
+amplitude    PASS fam=general_swe rank=ripple/ledgerflow/goingonce page=ledgerflow/goingonce/ripple fit=High blockers=-
+sparkline    PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+macys        PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Low blockers=student_audience,enrollment_required
+giga_swe     PASS fam=ai_llm rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+audit01      PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+google_sre   PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+commure      PASS fam=general_swe rank=ledgerflow/fraud/launchops page=ledgerflow/fraud/launchops fit=Low blockers=graduation_year
+pinterest    PASS fam=data_science_ml rank=fraud/ripple/ledgerflow page=ledgerflow/ripple/fraud fit=Low blockers=-
+bti          PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=-
+northwind    PASS fam=general_swe rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+meritore_jpc PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+## Rerun (final code) status lines
+assetwatch   PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Low blockers=-
+audit02      PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+frontend     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+impact       PASS fam=fullstack rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+loopwell     PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+pocketly     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+brightpath_fs PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+quora        PASS fam=data_science_ml rank=ripple/fraud/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+vindexa      PASS fam=general_swe rank=goingonce/ripple/launchops page=goingonce/ripple/launchops fit=Medium blockers=-
+audit06      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=Low blockers=work_authorization_or_sponsorship
+ixl          PASS fam=fullstack rank=launchops/goingonce/ledgerflow page=goingonce/ledgerflow/launchops fit=Medium blockers=-
+arclight     PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=-
+acme_cloud   PASS fam=general_swe rank=launchops/pintos/ledgerflow page=ledgerflow/pintos/launchops fit=Medium blockers=-
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+inspire11    PASS fam=general_swe rank=ledgerflow/goingonce/ripple page=ledgerflow/goingonce/ripple fit=Low blockers=work_authorization_or_sponsorship
+audit12      PASS fam=ai_llm rank=ripple/tailor_pipeline/ledgerflow page=ledgerflow/ripple/tailor_pipeline fit=High blockers=-
+wgu          PASS fam=data_engineering rank=ledgerflow/fraud/launchops page=ledgerflow/fraud/launchops fit=Medium blockers=-
+bti          PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=-
+pinecrest    PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+northbeam    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+us_cold      PASS fam=fullstack rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Medium blockers=-
+## First-run detection (before the false-positive fix), for the record
+acme_cloud: rank 1, order: launchops/pintos/ledgerflow -> ledgerflow/launchops/pintos; must terms Java -> ledgerflow (Experience programming in one of the following languages: Java, C++, C#, Python, JavaScrip); applied=True
+audit02: rank 1, order: ledgerflow/launchops/ripple -> launchops/ledgerflow/ripple; must terms Django -> launchops (- Django, Docker, Redis, and load testing experience are helpful but not mandatory.); applied=True
+bti: rank 1, order: launchops/ledgerflow/goingonce -> ledgerflow/launchops/goingonce; must terms Java -> ledgerflow (∙ Design, develop, test, and maintain full stack applications and services using Java and ); applied=True
+ebsco_sde1: rank 1, order: ledgerflow/ripple/launchops -> launchops/ledgerflow/ripple; must terms ReactJS -> launchops (- 0-3 years of professional experience in React (Next.js a plus) and modern web developmen); applied=True
+ixl: rank 1, order: launchops/goingonce/ledgerflow -> ledgerflow/launchops/goingonce; must terms Java -> ledgerflow (- Strong programming skills in Java, Python, JavaScript, or a similar language); applied=True
+quora: rank 1, order: ripple/fraud/goingonce -> fraud/ripple/goingonce; must terms PyTorch -> fraud (Stack: Python, PyTorch, TensorFlow, Spark, Kubernetes); applied=True
+vindexa: rank 1, order: goingonce/ripple/launchops -> launchops/goingonce/ripple; must terms ReactJS -> launchops (Frontend: React 18, TypeScript, Vite, Tailwind CSS, shadcn/ui, React Query, React Hook For); applied=True
