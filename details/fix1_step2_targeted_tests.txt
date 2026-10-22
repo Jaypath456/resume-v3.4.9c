@@ -1,0 +1,83 @@
+# v3.4.9c fix1 step 2 targeted tests (pipeline 8f0a1df7, all flags on unless noted)
+exit codes: flags on 13/13 = 0; closing_v349c off 3/3 = 0
+
+## Closings
+vindexa        FAMILY   I want to build dependable, well-tested software with the team at Vindexa, drawing on RIPPLE, which I wrote with an AI coding assistant and checked with its full test suite. | proof ripple.claude_code_dev
+     evidence dependable <- whole term
+     evidence well-tested <- tests
+alml_engineer  FAMILY   I want to build dependable, well-tested software with your team, drawing on RIPPLE, my AI agent that predicts the effects of a code change. | proof ripple.core_agent
+     evidence dependable <- whole term
+     evidence well-tested <- tests
+doordash_mdx   FAMILY   I want to build dependable, well-tested software with the team at DoorDash, drawing on LedgerFlow, which kept every balance correct even when I crashed its parts on purpose. | proof ledger.chaos_runs
+     evidence dependable <- whole term
+     evidence well-tested <- testing, tests, test
+doordash       FAMILY   I want to build reliable backend services with the team at DoorDash, drawing on my cloud deployment work at Data Maven. | proof exp.datamaven
+     evidence backend <- backend
+elevenlabs     FAMILY   I want to build dependable, well-tested software with the team at ElevenLabs, drawing on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+     evidence dependable <- whole term
+     evidence well-tested <- test, tests
+zoro_fullstack FAMILY   I want to ship reliable features with the team at Zoro, building on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+audit01        FAMILY   I want to build dependable, well-tested software with your team, drawing on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+     evidence dependable <- whole term
+     evidence well-tested <- test, tests
+l3harris       FAMILY   I want to build dependable, well-tested software with the team at L3Harris Technologies, drawing on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+     evidence dependable <- whole term
+     evidence well-tested <- test, tests
+arclight       FAMILY   I want to grow as a systems engineer at Arclight Devices, drawing on the law journal data system I built at HeinOnline. | proof exp.hein
+     evidence grow <- whole term
+     evidence engineer <- engineered
+corvex         FAMILY   I want to build dependable, well-tested software with the team at Corvex Systems, drawing on LedgerFlow, which kept every balance correct even when I crashed its parts on purpose. | proof ledger.chaos_runs
+     evidence dependable <- whole term
+     evidence well-tested <- testing, tests, test
+fidelity       FAMILY   I want to build dependable, well-tested software with the team at Fidelity Investments, drawing on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+     evidence dependable <- whole term
+     evidence well-tested <- test, tests
+harvey         FAMILY   I want to build dependable, well-tested software with the team at Harvey, drawing on RIPPLE, which flags missing tests and outdated callers in a code change. | proof ripple.git_verification
+     evidence dependable <- whole term
+     evidence well-tested <- tests
+macys          FAMILY   I want to build dependable, well-tested software with the team at Macy's, drawing on LedgerFlow, where every automated test runs whenever the code changes. | proof ledger.ci
+     evidence dependable <- whole term
+     evidence well-tested <- test, tests
+
+## Independent grounding check of specific closings (tools/verify_grounding.py)
+
+GROUNDING: 0/0 specific closings supported by their cited evidence
+
+## Plain-letter rules + resume/tracker/outreach identity vs Run 6 final (tools/gate_r8.py)
+GATE8: 13/13 pass []
+alml_engineer          OK   body=120 letter=127 ach=1 hook=plan hook shared=evaluation,learning,llm-based,machine exp=hein proj=fraud proof=ripple.core_agent
+arclight               OK   body=121 letter=128 ach=1 hook=plan hook shared=concurrency,embedded,environment,file exp=thesis_iot proj=pintos proof=exp.hein
+audit01                OK   body=131 letter=138 ach=1 hook=plan hook shared=development,engineering,group,improvements exp=thesis_ops proj=ledgerflow proof=ledger.ci
+corvex                 OK   body=126 letter=133 ach=1 hook=plan hook shared=apis,automated,chaos,distributed exp=thesis_ops proj=ledgerflow proof=ledger.chaos_runs
+doordash               OK   body=149 letter=156 ach=1 hook=plan hook shared=architecture,backend,doordash,microservice-based exp=thesis_ops proj=ledgerflow proof=exp.datamaven
+doordash_mdx           OK   body=143 letter=150 ach=1 hook=plan hook shared=agents,doordash,evaluate,experiments exp=hein proj=ripple proof=ledger.chaos_runs
+elevenlabs             OK   body=121 letter=128 ach=1 hook=plan hook shared=correct,elevenlabs,every,foundations exp=thesis_ops proj=launchops proof=ledger.ci
+fidelity               OK   body=129 letter=136 ach=1 hook=plan hook shared=autonomous,cross-functional,desktop,experience exp=thesis_backend proj=ledgerflow proof=ledger.ci
+harvey                 OK   body=151 letter=158 ach=1 hook=plan hook shared=automation,document,intelligence,retrieval exp=hein proj=ripple proof=ripple.git_verification
+l3harris               OK   body=120 letter=127 ach=1 hook=plan hook shared=activities,customer,deployment,integration exp=thesis_iot proj=ledgerflow proof=ledger.ci
+macys                  OK   body=135 letter=142 ach=1 hook=plan hook shared=clearly,commerce,connected,customers exp=datamaven proj=ledgerflow proof=ledger.ci
+vindexa                OK   body=129 letter=136 ach=1 hook=plan hook shared=architectural,data,decisions,defend exp=hein proj=goingonce proof=ripple.claude_code_dev
+zoro_fullstack         OK   body=121 letter=128 ach=1 hook=plan hook shared=customer,data,demand,deployment exp=thesis_backend proj=launchops proof=ledger.ci
+
+## Resume isolation: closing_v349c on vs off
+vindexa: resume identical
+elevenlabs: resume identical
+doordash_mdx: resume identical
+
+## vindexa project bullets
+  f2t: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+  f2off: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+  r6_final: RIPPLE=4 GoingOnce=2 LaunchOps=2 
+
+## Matcher unit cases
+  'build internal platforms or services used by other engineering teams' <- exp.thesis_backend: unsupported ['internal', 'used', 'engineering']
+  'build agentic developer support' <- ripple.claude_code_dev: unsupported ['agentic', 'developer']
+  'ship full-stack features' <- launchops.server_checks: unsupported ['full-stack']
+  'develop low-level software' <- exp.hein: unsupported ['low-level']
+  'ship customer-facing features end to end' <- exp.thesis_iot: unsupported ['customer-facing', 'end', 'end']
+  'write integration tests' <- ledger.ci: unsupported []
+
+## audit_v344 on this 13-fixture sample (unchanged tool; not the full audit)
+built 13 | fallback closings 13 (100.0%) | max closing 30 words | max letter 158 words
+FAIL fallback closings 100.0% > 10%
+audit_v344: 1 problem(s)
