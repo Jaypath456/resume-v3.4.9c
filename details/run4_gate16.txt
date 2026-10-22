@@ -1,0 +1,18 @@
+akamai_se              spare= 33.9 slots=[3, 2, 2] phase=fits diffs=[] OK
+allergan               spare= 51.6 slots=[3, 2, 2] phase=fits diffs=['launchops slots 3->2'] OK
+alml_engineer          spare= 23.0 slots=[3, 2, 2] phase=fits diffs=[] OK
+audible                spare= 34.7 slots=[3, 2, 2] phase=fits diffs=[] OK
+cardinal               spare= 63.7 slots=[3, 2, 2] phase=fits diffs=['launchops slots 3->2', 'APPROVED EXCEPTION Skills -Django REST Framework (bullet left with the 3/2/2 slot)'] OK
+doordash_mdx           spare= 21.4 slots=[3, 2, 2] phase=fits diffs=[] OK
+ebsco_sde1             spare= 34.3 slots=[3, 2, 2] phase=fits diffs=[] OK
+elevenlabs             spare= 33.9 slots=[3, 2, 2] phase=fits diffs=[] OK
+figure                 spare= 63.7 slots=[3, 2, 2] phase=fits diffs=['ledgerflow slots 3->2', 'ripple slots 3->2'] OK
+giga_swe               spare= 50.4 slots=[3, 2, 2] phase=fits diffs=['Skills order Languages \\& Databases: Python first'] OK
+macys                  spare= 22.6 slots=[3, 2, 2] phase=fits diffs=[] OK
+meritore_jpc           spare= 33.9 slots=[3, 2, 2] phase=fits diffs=[] OK
+nvidia_infra           spare= 51.2 slots=[3, 2, 2] phase=fits diffs=['ripple slots 3->2'] OK
+umich                  spare= 22.2 slots=[3, 2, 2] phase=fits diffs=[] OK
+ust_software_engineer  spare= 33.9 slots=[3, 2, 2] phase=fits diffs=[] OK
+zoro_fullstack         spare= 34.3 slots=[3, 2, 2] phase=fits diffs=[] OK
+
+GATE: 16/16 pass []
