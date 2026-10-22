@@ -1,0 +1,72 @@
+# Run 7 GATE16 (final code): flag on rows; gate = letters change only in the closing, resumes / tracker / outreach byte-identical to Run 6
+allergan     PASS fam=general_swe rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+doordash_mdx PASS fam=data_science_ml rank=ripple/ledgerflow/tailor_pipeline page=ledgerflow/ripple/tailor_pipeline fit=Medium blockers=-
+audible      PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+akamai_se    PASS fam=backend rank=ledgerflow/launchops/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+nvidia_infra PASS fam=devops_cloud rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Low blockers=-
+macys        PASS fam=general_swe rank=ledgerflow/launchops/pintos page=ledgerflow/pintos/launchops fit=Low blockers=student_audience,enrollment_required
+zoro_fullstack PASS fam=fullstack rank=launchops/ledgerflow/goingonce page=ledgerflow/goingonce/launchops fit=High blockers=-
+ebsco_sde1   PASS fam=general_swe rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+umich        PASS fam=fullstack rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=Medium blockers=-
+figure       PASS fam=systems rank=pintos/ledgerflow/ripple page=ledgerflow/ripple/pintos fit=Low blockers=graduation_window,student_audience
+alml_engineer PASS fam=data_science_ml rank=fraud/ripple/goingonce page=goingonce/ripple/fraud fit=High blockers=-
+giga_swe     PASS fam=ai_llm rank=ripple/goingonce/ledgerflow page=goingonce/ledgerflow/ripple fit=Medium blockers=-
+cardinal     PASS fam=general_swe rank=ledgerflow/launchops/goingonce page=ledgerflow/goingonce/launchops fit=Low blockers=work_authorization_or_sponsorship
+elevenlabs   PASS fam=devops_cloud rank=launchops/ledgerflow/ripple page=ledgerflow/ripple/launchops fit=High blockers=-
+ust_software_engineer PASS fam=backend rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=High blockers=-
+meritore_jpc PASS fam=general_swe rank=ledgerflow/ripple/launchops page=ledgerflow/ripple/launchops fit=Medium blockers=-
+akamai_se              same    OK
+allergan               same    OK
+alml_engineer          CHANGED OK
+audible                same    OK
+cardinal               same    OK
+doordash_mdx           CHANGED OK
+ebsco_sde1             same    OK
+elevenlabs             CHANGED OK
+figure                 CHANGED OK
+giga_swe               same    OK
+macys                  same    OK
+meritore_jpc           same    OK
+nvidia_infra           same    OK
+umich                  same    OK
+ust_software_engineer  same    OK
+zoro_fullstack         CHANGED OK
+GATE: 16/16 pass [] changed closings: 5
+fixtures=16 built=16 min_spare=10.54(giga_swe) max_spare=10.77 problems=0
+flag off (closing_v349c): 16/16 fixtures byte-identical to Run 6
+
+# Changed closings
+### alml_engineer
+- before: I want to optimize models for latency, accuracy, and scalability in real-world applications on your team, building on my fraud model's edge-type ablation.
+- after: I want to apply careful, baseline-checked model evaluation to your team's machine learning work.
+- responsibility: (role-family closing) claim 'apply careful, baseline-checked model evaluation to machine learning work'; master evidence demonstrating it: ['fraud.graphsage', 'fraud.dataset', 'fraud.elliptic', 'fraud.ablation'] | proof  ()
+- set aside: [{"responsibility": "optimize models for latency, accuracy, and scalability in real-world applications", "proof": "fraud.edge_ablation", "unsupported": ["optimize", "latency", "accuracy", "scalability"]}, {"responsibility": "optimize models for latency, accuracy, and scalability", "proof": "fraud.edge_ablation", "unsupported": ["optimize", "latency", "accuracy", "scalability"]}]
+- evidence ():  |  
+
+### doordash_mdx
+- before: I want to build ML infrastructure in production including feature engineering and feature stores at DoorDash, drawing on my LLM engine's provider failover.
+- after: I want to apply careful, baseline-checked model evaluation to DoorDash's machine learning work.
+- responsibility: (role-family closing) claim 'apply careful, baseline-checked model evaluation to machine learning work'; master evidence demonstrating it: ['fraud.graphsage', 'fraud.dataset', 'fraud.elliptic', 'fraud.ablation'] | proof  ()
+- set aside: [{"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}, {"responsibility": "build ML infrastructure in production including feature engineering and feature stores", "proof": "tailor.provider_failover", "unsupported": ["infrastructure", "feature", "feature", "stores"]}]
+- evidence ():  |  
+
+### elevenlabs
+- before: I want to design and build generic resource and permissioning services at ElevenLabs, drawing on LaunchOps, where every onboarding task has an owner and prerequisites the server enforces.
+- after: I want to keep systems healthy at ElevenLabs.
+- responsibility: (role-family closing) claim 'keep systems healthy at'; master evidence demonstrating it: ['exp.thesis_backend', 'exp.thesis_client', 'exp.thesis_heartbeat', 'exp.thesis_iot'] | proof  ()
+- set aside: [{"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}, {"responsibility": "design and build generic resource and permissioning services", "proof": "launchops.ownership", "unsupported": ["resource"]}]
+- evidence ():  |  
+
+### figure
+- before: I want to integrate, debug, and validate updates on real robot hardware at Figure, building on the locking and memory-access checks I wrote in C for Pintos.
+- after: I want to design, implement, and test features for the robot software platform at Figure, building on the locking and memory-access checks I wrote in C for Pintos.
+- responsibility: design, implement, and test features for the robot software platform | proof pintos.safety (embedded)
+- set aside: [{"responsibility": "integrate, debug, and validate updates on real robot hardware", "proof": "pintos.safety", "unsupported": ["integrate", "validate", "updates"]}]
+- evidence (pintos.safety): the locking and memory-access checks I wrote in C for Pintos | the locking and memory-access checks i wrote in c for pintos wrote the part of a teaching operating system that runs user programs, in c: starting programs with arguments, parent/child waiting and exit, 13 system calls, up to 128 open files per process, locks, and safety checks on memory access; all 80 tests pass. locks safety checks on memory access concurrency locks memory access thread synchron
+
+### zoro_fullstack
+- before: I want to build scalable infrastructure and customer-facing solutions at Zoro, drawing on LaunchOps, whose Go live-quiz service stays in sync across two copies.
+- after: I want to ship reliable features with the team at Zoro, building on LedgerFlow, where a GitHub Actions CI workflow runs every automated test.
+- responsibility: (role-family closing) claim 'ship reliable features with the team at'; master evidence demonstrating it: ['_rule', 'ledger.ci', 'ledger.chaos_runs', 'ledger.overspend_test'] | proof ledger.ci (testing)
+- set aside: [{"responsibility": "build scalable infrastructure and customer-facing solutions", "proof": "launchops.live_quiz", "unsupported": ["infrastructure"]}]
+- evidence (ledger.ci): LedgerFlow, where a GitHub Actions CI workflow runs every automated test | ledgerflow, where a github actions ci workflow runs every automated test ci: ledgerflow's github actions ci workflow runs all 94 tests (confirmed by jay 2026-10-15); the integration tests run against real postgresql and kafka in containers with testcontainers and junit 5. github actions workflow runs the 94 automated tests 94 automated tests continuous integration integration tests against real po
